@@ -12,7 +12,7 @@
     
     <title>
         
-            归档: 2018/3 | 
+            为Hexo优化 | 
         
         MuC‘s bolg
     </title>
@@ -65,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2018/3 | MuC‘s bolg">
+    <meta property="og:title" content="为Hexo优化 | MuC‘s bolg">
     <meta property="og:image" content="/img/gufeng.jpg" />
     <meta property="og:description" content="">
     
 
     
+        <meta property="article:published_time" content="3月 08, 2018" />
+        <meta property="article:modified_time" content="3月 08, 2018" />
+    
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="归档: 2018/3 | MuC‘s bolg">
+    <meta name="twitter:title" content="为Hexo优化 | MuC‘s bolg">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/gufeng.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -81,13 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/archives/2018/03/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/03/08/为Hexo优化/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "MuC‘s bolg",
+        "logo": "/img/gufeng.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "沐成尘",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/gufeng.jpg"
+        },
+        "description": "自爱沉稳.而后爱人"
+    },
+    "headline": "为Hexo优化",
+    "url": "http://yoursite.com/2018/03/08/为Hexo优化/index.html",
+    "datePublished": "3月 08, 2018",
+    "dateModified": "3月 08, 2018",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://yoursite.com"
+    }
+}
+</script>
 
 
     
@@ -275,155 +308,301 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#写在前面"><span class="post-toc-number">1.</span> <span class="post-toc-text">写在前面</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#注意"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">##注意</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#生成ssh的密钥文件"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">生成ssh的密钥文件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#将ssh-Key-添加到github上"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">将ssh Key 添加到github上</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#修改配置文件"><span class="post-toc-number">1.3.1.</span> <span class="post-toc-text">修改配置文件</span></a></li></ol></li></ol></li></ol>
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 19 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/08/为Hexo优化/">为Hexo优化</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            写在前面
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/08/为Hexo优化/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/gufeng.jpg" width="44px" height="44px" alt="沐成尘's avatar">
-            </div>
-            <div>
-                <strong>沐成尘</strong>
-                <span>3月 08, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/07/Hexo+Github 的搭建/">利用Hexo+Github 搭建博客</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            始建之初
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/07/Hexo+Github 的搭建/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/gufeng.jpg" width="44px" height="44px" alt="沐成尘's avatar">
-            </div>
-            <div>
-                <strong>沐成尘</strong>
-                <span>3月 07, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                为Hexo优化
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/gufeng.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>沐成尘</strong>
+        <span>3月 08, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=为Hexo优化&url=http://yoursite.com/2018/03/08/为Hexo优化/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=为Hexo优化&url=http://yoursite.com/2018/03/08/为Hexo优化/index.html&via=沐成尘" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/03/08/为Hexo优化/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2018/03/08/为Hexo优化/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><blockquote>
+<p>在本文中，假定你已经成功安装了 Hexo，并根据 Hexo 的文档创建了一个站点，并完成了基本的设置。</p>
+</blockquote>
+<ul>
+<li>在 Hexo 中，通常有两份配置文件，一个是站点根目录下的 <code>_config.yaml</code>；另外一个是主题目录下的<code>_config.yaml</code>。 为了描述方便，在以下说明中，将前者称为 <strong>站点配置文件</strong>，后者称为 <strong>主题配置文件</strong>。<br>#更换主题</li>
+<li>在Hexo框架下更换主题变得异常简单，只要将主题文件下载并且放置到<strong>站点目录</strong>的<code>themes</code>文件夹下，然后修改一下配置文件即可。你可以从Github上找到这些<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">主题</a>。</li>
+</ul>
+<p>##启用主题</p>
+<ul>
+<li>克隆完成后，修改主题文件夹名称，将其自定义为 <code>***</code>。 然后打开 站点配置文件，找到 <code>theme</code>字段，并将其值更改为 <code>***</code> 。</li>
+</ul>
+<blockquote>
+<p>文件夹名称可自由修改，并不是唯一的，只需 <code>theme</code>字段与之对应即可。</p>
+</blockquote>
+<h2 id="注意"><a href="#注意" class="headerlink" title="##注意"></a>##注意</h2><ul>
+<li>为防止造成冲突，主题以<code>_config.template.yaml</code>文件取代<code>_config.yaml</code>文件，用以参考配置。 需要手动将 <code>material</code> 文件夹中的 <code>_config.template.yaml</code>复制一份并重命名为<code>_config.yaml</code>。</li>
+</ul>
+<hr>
+<p>##主题基本配置</p>
+<p>###Language</p>
+<ul>
+<li>编辑 <strong>站点配置文件</strong>，将 <code>language</code>设置成你所需要的语言。</li>
+</ul>
+<blockquote>
+<p>例如：选用简体中文，则配置为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">language: zh-CN</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<p>##Head<br> <strong>用于配置生成的 HTML 文件的头部信息。</strong></p>
+<ul>
+<li><code>favicon</code>: 网站的 favicon</li>
+<li><code>high_res_favicon</code>: 高清 favicon</li>
+<li><code>keywords</code>: 网站关键词</li>
+<li><code>site_verification</code>: 搜索引擎验证</li>
+</ul>
+<p>#更方便的与Github关联</p>
+<ul>
+<li>使用 ssh实现与github的免密上传。</li>
+</ul>
+<hr>
+<h2 id="生成ssh的密钥文件"><a href="#生成ssh的密钥文件" class="headerlink" title="生成ssh的密钥文件"></a>生成ssh的密钥文件</h2><p>在命令行中输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 256 -C &quot;your_email@example.com&quot;</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li>这行命令将会生成一个以<a href="mailto:`your_email@example.com" target="_blank" rel="noopener">`your_email@example.com</a>`为标签的ssh key，接着bash会显示：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Generating public/private rsa key pair. Enter file in which to save the key (/c/Users/you/.ssh/id_rsa): [Press enter]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>如果想要为私钥设置密码，请设置密码，如果不想设置则直接回车然后出现：</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase): [Type a passphrase] Enter same passphrase again: [Type passphrase again]</span><br></pre></td></tr></table></figure>
+<ul>
+<li>再次确认你的密码，或两次回车设置为空</li>
+</ul>
+<blockquote>
+<p>ssh-keygen 有如几种参数： <br>1. -t 为指定加密算法类型，支持rsa，dsa，ecdsa。<br>2. -b 指定密钥大小。<br>3. -f 指定生成密钥保存位置与名称。 <br>4. -C 添加注释。默认为本机主机名和用户。</p>
+</blockquote>
+<h2 id="将ssh-Key-添加到github上"><a href="#将ssh-Key-添加到github上" class="headerlink" title="将ssh Key 添加到github上"></a>将ssh Key 添加到github上</h2><ol>
+<li>将本地生成的公钥 <code>id_rsa.pub</code>中的内容复制下来。<br>2.打开<a href="https://github.com/settings/ssh" target="_blank" rel="noopener">https://github.com/settings/ssh</a>  并且登录，点击Add ssh Key，将复制的内容粘贴到Key框中，在Title框中可以输入自己方便记忆的名字。</li>
+<li><p>当网页显示添加成功后，打开命令行输入</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh ‐T git@github.com</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>命令行出现以下回执：<code>Are you sure you want to continue connecting (yes/no)?</code></p>
+</li>
+<li><p>输入yes后如果看到</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi username! You&apos;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>成功显示如上文字就说明成功了，如果出现错误提示请仔细检查自己的操作。</p>
+</li>
+</ol>
+<h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><ul>
+<li><p>修改<strong>站点配置文件</strong>，中的<code>_config.yml</code>，将部署方式从https方式修改为ssh方式。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/minifullc/minifullc.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>修改为</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:MiniFullC/MiniFullC.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<p>  <br></p>
+<p>  参考</p>
+<hr>
+<ul>
+<li><a href="https://hexo.io/zh-cn/docs/commands.html" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/commands.html</a></li>
+<li><a href="https://xiaotaoist.github.io/" target="_blank" rel="noopener">https://xiaotaoist.github.io/</a></li>
+<li><a href="https://material.viosey.com/docs/#/" target="_blank" rel="noopener">https://material.viosey.com/docs/#/</a></li>
+</ul>
+
+    
+
     
 </div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/03/07/Hexo+Github 的搭建/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
