@@ -335,7 +335,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#写在前面"><span class="post-toc-number">1.</span> <span class="post-toc-text">写在前面</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#注意"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">##注意</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#生成ssh的密钥文件"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">生成ssh的密钥文件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#将ssh-Key-添加到github上"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">将ssh Key 添加到github上</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#修改配置文件"><span class="post-toc-number">1.3.1.</span> <span class="post-toc-text">修改配置文件</span></a></li></ol></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#写在前面"><span class="post-toc-number">1.</span> <span class="post-toc-text">写在前面</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#启用主题"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">启用主题</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#注意"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">注意</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#主题基本配置"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">主题基本配置</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Language"><span class="post-toc-number">1.3.1.</span> <span class="post-toc-text">Language</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Head"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">Head</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#更方便的与Github关联"><span class="post-toc-number">2.</span> <span class="post-toc-text">更方便的与Github关联</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#生成ssh的密钥文件"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">生成ssh的密钥文件</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#将ssh-Key-添加到github上"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">将ssh Key 添加到github上</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#修改配置文件"><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">修改配置文件</span></a></li></ol></li></ol></li></ol>
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -483,47 +483,45 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><blockquote>
+        <p>搭建完基本的框架，来为自己博客的美观和便捷性，做点功课。</p>
+<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><blockquote>
 <p>在本文中，假定你已经成功安装了 Hexo，并根据 Hexo 的文档创建了一个站点，并完成了基本的设置。</p>
 </blockquote>
 <ul>
 <li>在 Hexo 中，通常有两份配置文件，一个是站点根目录下的 <code>_config.yaml</code>；另外一个是主题目录下的<code>_config.yaml</code>。 为了描述方便，在以下说明中，将前者称为 <strong>站点配置文件</strong>，后者称为 <strong>主题配置文件</strong>。<br>#更换主题</li>
 <li>在Hexo框架下更换主题变得异常简单，只要将主题文件下载并且放置到<strong>站点目录</strong>的<code>themes</code>文件夹下，然后修改一下配置文件即可。你可以从Github上找到这些<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="noopener">主题</a>。</li>
 </ul>
-<p>##启用主题</p>
-<ul>
+<h2 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h2><ul>
 <li>克隆完成后，修改主题文件夹名称，将其自定义为 <code>***</code>。 然后打开 站点配置文件，找到 <code>theme</code>字段，并将其值更改为 <code>***</code> 。</li>
 </ul>
 <blockquote>
 <p>文件夹名称可自由修改，并不是唯一的，只需 <code>theme</code>字段与之对应即可。</p>
 </blockquote>
-<h2 id="注意"><a href="#注意" class="headerlink" title="##注意"></a>##注意</h2><ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><hr>
+<ul>
 <li>为防止造成冲突，主题以<code>_config.template.yaml</code>文件取代<code>_config.yaml</code>文件，用以参考配置。 需要手动将 <code>material</code> 文件夹中的 <code>_config.template.yaml</code>复制一份并重命名为<code>_config.yaml</code>。</li>
 </ul>
 <hr>
-<p>##主题基本配置</p>
-<p>###Language</p>
-<ul>
+<h2 id="主题基本配置"><a href="#主题基本配置" class="headerlink" title="主题基本配置"></a>主题基本配置</h2><h3 id="Language"><a href="#Language" class="headerlink" title="Language"></a>Language</h3><ul>
 <li>编辑 <strong>站点配置文件</strong>，将 <code>language</code>设置成你所需要的语言。</li>
 </ul>
 <blockquote>
 <p>例如：选用简体中文，则配置为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">language: zh-CN</span><br></pre></td></tr></table></figure></p>
 </blockquote>
-<p>##Head<br> <strong>用于配置生成的 HTML 文件的头部信息。</strong></p>
+<h2 id="Head"><a href="#Head" class="headerlink" title="Head"></a>Head</h2><p> <strong>用于配置生成的 HTML 文件的头部信息。</strong></p>
 <ul>
 <li><code>favicon</code>: 网站的 favicon</li>
 <li><code>high_res_favicon</code>: 高清 favicon</li>
 <li><code>keywords</code>: 网站关键词</li>
 <li><code>site_verification</code>: 搜索引擎验证</li>
 </ul>
-<p>#更方便的与Github关联</p>
-<ul>
+<h1 id="更方便的与Github关联"><a href="#更方便的与Github关联" class="headerlink" title="更方便的与Github关联"></a>更方便的与Github关联</h1><ul>
 <li>使用 ssh实现与github的免密上传。</li>
 </ul>
 <hr>
 <h2 id="生成ssh的密钥文件"><a href="#生成ssh的密钥文件" class="headerlink" title="生成ssh的密钥文件"></a>生成ssh的密钥文件</h2><p>在命令行中输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 256 -C &quot;your_email@example.com&quot;</span><br></pre></td></tr></table></figure></p>
 <ul>
-<li>这行命令将会生成一个以<a href="mailto:`your_email@example.com" target="_blank" rel="noopener">`your_email@example.com</a>`为标签的ssh key，接着bash会显示：</li>
+<li>这行命令将会生成一个以<a href="mailto:**your_email@example.com" target="_blank" rel="noopener">**your_email@example.com</a>**为标签的ssh key，接着bash会显示：</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Generating public/private rsa key pair. Enter file in which to save the key (/c/Users/you/.ssh/id_rsa): [Press enter]</span><br></pre></td></tr></table></figure>
 <ul>
@@ -543,7 +541,7 @@
 </li>
 <li><p>命令行出现以下回执：<code>Are you sure you want to continue connecting (yes/no)?</code></p>
 </li>
-<li><p>输入yes后如果看到</p>
+<li><p>输入yes后如果看到:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi username! You&apos;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>成功显示如上文字就说明成功了，如果出现错误提示请仔细检查自己的操作。</p>
@@ -553,7 +551,7 @@
 <li><p>修改<strong>站点配置文件</strong>，中的<code>_config.yml</code>，将部署方式从https方式修改为ssh方式。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/minifullc/minifullc.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>修改为</p>
+<li><p>修改为:</p>
 </li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https://hexo.io/docs/deployment.html</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:MiniFullC/MiniFullC.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
