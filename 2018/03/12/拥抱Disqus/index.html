@@ -12,7 +12,7 @@
     
     <title>
         
-            tags | 
+            拥抱Disqus | 
         
         MuC‘s bolg
     </title>
@@ -36,7 +36,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="沐成尘">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content=",Hexo">
 
     <!-- Site Verification -->
     
@@ -65,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="tags | MuC‘s bolg">
+    <meta property="og:title" content="拥抱Disqus | MuC‘s bolg">
     <meta property="og:image" content="/img/gufeng.jpg" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="Hexo"> 
 
+    
+        <meta property="article:published_time" content="3月 12, 2018" />
+        <meta property="article:modified_time" content="3月 12, 2018" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="tags | MuC‘s bolg">
+    <meta name="twitter:title" content="拥抱Disqus | MuC‘s bolg">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/gufeng.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -81,13 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/tags/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/03/12/拥抱Disqus/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "MuC‘s bolg",
+        "logo": "/img/gufeng.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "沐成尘",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/gufeng.jpg"
+        },
+        "description": "自爱沉稳.而后爱人"
+    },
+    "headline": "拥抱Disqus",
+    "url": "http://yoursite.com/2018/03/12/拥抱Disqus/index.html",
+    "datePublished": "3月 12, 2018",
+    "dateModified": "3月 12, 2018",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://yoursite.com"
+    }
+}
+</script>
 
 
     
@@ -277,60 +310,303 @@
 
                     <!-- Post TOC -->
 
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#申请Disqus账号"><span class="post-toc-number">1.</span> <span class="post-toc-text">申请Disqus账号</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#配置Disqus"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">配置Disqus</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#配置-Hexo"><span class="post-toc-number">2.</span> <span class="post-toc-text">配置 Hexo</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#参考："><span class="post-toc-number">3.</span> <span class="post-toc-text">参考：</span></a></li></ol>
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
+    
+
+
+
+
 
 <!-- Layouts -->
 
-    <!-- Tags Cloud -->
-    <style>
-    #bottom{
-        position: relative;
-    }
+    <!-- Post Module -->
+    <div class="material-post_container">
 
-    @media screen and (max-width: 480px) {
-        .material-tagscloud{
-            margin: 6em 2em 0;
-        }
-    }
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
 
-    .material-tagscloud a{
-        text-decoration:none;
-        padding: 1px 9px;
-        margin: 9px 1px;
-        line-height: 40px;
-        white-space: nowrap;
-        transition: .6s;
-        opacity: .85;
-    }
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
+    
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/self/Disqus.png)">
+    
+            <p class="article-headline-p">
+                拥抱Disqus
+            </p>
+        </div>
 
-    .material-tagscloud a:hover{
-        transition: .6s;
-        opacity: 1;
-        background: #FAFAFA;
-        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
-    }
-</style>
 
-<div class=" material-tagscloud">
-    <div class="material-post mdl-grid">
-        <a href="/tags/Hexo/" style="font-size: 16px; color: #757575">Hexo</a>
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/gufeng.jpg" width="44px" height="44px" alt="Author Avatar"/>
     </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>沐成尘</strong>
+        <span>3月 12, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=http://yoursite.com/2018/03/12/拥抱Disqus/">
+    
+</ul>
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/Hexo/">Hexo</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=拥抱Disqus&url=http://yoursite.com/2018/03/12/拥抱Disqus/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=拥抱Disqus&url=http://yoursite.com/2018/03/12/拥抱Disqus/index.html&via=沐成尘" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/03/12/拥抱Disqus/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2018/03/12/拥抱Disqus/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=MuC‘s bolg&title=拥抱Disqus&summary=&pics=http://yoursite.com/img/gufeng.jpg&url=http://yoursite.com/2018/03/12/拥抱Disqus/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>评论系统是互动不可缺少的一部分，沟通同样也是桥梁。为博客搭建一个可靠的评论系统，我选择了Disqus。</p>
+<hr>
+<p>以人为镜，可以明得失。</p>
+<h1 id="申请Disqus账号"><a href="#申请Disqus账号" class="headerlink" title="申请Disqus账号"></a>申请Disqus账号</h1><ul>
+<li>点击<a href="https://disqus.com/" target="_blank" rel="noopener">这里</a>进入Disqus的官网，注册登录，这里可以选择Facebook、Twitter账号的快速登录，当然你同样可以使用邮箱注册登录。</li>
+</ul>
+<h2 id="配置Disqus"><a href="#配置Disqus" class="headerlink" title="配置Disqus"></a>配置Disqus</h2><ul>
+<li>登录后，点击首页的 GET STARTED 按钮，之后选择 I want to install Disqus on my site 选项。</li>
+</ul>
+<ol>
+<li><p><code>Websit Name</code> 就是 short name 自己填写,这个在配置 Hexo 的时候需要用到。</p>
+</li>
+<li><p><code>Category</code> 选择种类，可以随便选<br></p>
+</li>
+<li><p><code>Language</code> 语言选 Chinese 或者 English <br></p>
+</li>
+<li><p>点击<code>Create Site</code> 等待界面跳转。<br></p>
+</li>
+<li><p>接下来在页面的左侧点击 Configure Disqus<br></p>
+</li>
+</ol>
+<ul>
+<li>在<code>Website URL</code> 那里填写自己的博客地址，Description 可以不写，然后点 <code>Complete Setup</code>，Disqus 基本的设置就完成了。</li>
+</ul>
+<h1 id="配置-Hexo"><a href="#配置-Hexo" class="headerlink" title="配置 Hexo"></a>配置 Hexo</h1><ul>
+<li>在<strong>主题配置文件</strong>中，填写 <code>comment: use:</code>字段，值设置为 <code>disqus</code> 或 <code>disqus_click。</code></li>
+</ul>
+<blockquote>
+<p>使用<code>Disqus_Click</code> 时，文章页面不会主动加载<code>Disqus</code> 评论，直到按下按钮。这项设置有助于改善浏览者的体验。</p>
+</blockquote>
+<ul>
+<li>在 <code>comment: shortname:</code>填入你的 <code>Disqus shortname</code></li>
+</ul>
+<hr>
+<ul>
+<li>需要注意的是此处的 <code>shortname</code>不是你的登录的 id，是你的评论二级域名去掉 <code>.duoshuo.com</code> 或 <code>.disqus.com</code>部分.</li>
+</ul>
+<blockquote>
+<p>例如：Disqus 域名 example.disqus.com</p>
+</blockquote>
+<p>则输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">shortname: example</span><br></pre></td></tr></table></figure>
+<hr>
+<p>然后执行:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+<h1 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h1><hr>
+<ul>
+<li><a href="https://www.jianshu.com/p/c4f65ebe23ad" target="_blank" rel="noopener">https://www.jianshu.com/p/c4f65ebe23ad</a></li>
+<li><a href="https://material.viosey.com/docs/#/" target="_blank" rel="noopener">https://material.viosey.com/docs/#/</a></li>
+</ul>
+
+    
+
+    
 </div>
 
 
-<script type="text/ls-javascript" id="page-tagcloud-script">
-    var adjustFooter = function() {
-        if( ($('#bottom').offset().top + $('#bottom').outerHeight() ) < $(window).height() ) {
-            var footerBottom = $(window).height() - $('#bottom').outerHeight() - $('#bottom').offset().top;
-            $('#bottom').css('bottom', '-' + footerBottom + 'px');
-        }
-    };
+                
 
-    $(document).ready(function() {
-        adjustFooter();
-    });
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2018/03/12/拥抱Disqus/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2018/03/12/拥抱Disqus/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//Musuc.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
 </script>
 
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
 
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/03/08/为Hexo优化/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
 
 
 
@@ -529,6 +805,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
