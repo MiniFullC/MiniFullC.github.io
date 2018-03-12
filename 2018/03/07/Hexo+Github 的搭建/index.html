@@ -72,7 +72,7 @@
 
     
         <meta property="article:published_time" content="3月 07, 2018" />
-        <meta property="article:modified_time" content="3月 08, 2018" />
+        <meta property="article:modified_time" content="3月 09, 2018" />
     
 
     <!-- The Twitter Card protocol -->
@@ -113,7 +113,7 @@
     "headline": "利用Hexo+Github 搭建博客",
     "url": "http://yoursite.com/2018/03/07/Hexo+Github 的搭建/index.html",
     "datePublished": "3月 07, 2018",
-    "dateModified": "3月 08, 2018",
+    "dateModified": "3月 09, 2018",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -490,6 +490,17 @@
 <li>下载node.js，npm 并安装。</li>
 <li>下载git。</li>
 </ul>
+<ol>
+<li><p>在Ubuntu下可以打开终端输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install nodejs npm git</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用Arch Linux用户可以输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">pacman -S nodejs npm git</span><br><span class="line"></span><br><span class="line">或</span><br><span class="line"> </span><br><span class="line">sudo yaourt -S node js npm git`</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<blockquote>
+<p>Windows 用户可自行搜索安装。</p>
+</blockquote>
 <h2 id="检查安装"><a href="#检查安装" class="headerlink" title="检查安装"></a>检查安装</h2><ul>
 <li>在终端下，输入 <em>node -v</em> ， <em>npm -v</em> ，<em>git –version</em></li>
 <li>如果都成功显示版本号，则说明安装正确，可以进行下一步操作了，如果不正确，请回头检查安装过程。</li>
@@ -572,6 +583,35 @@
                 <!-- Post Comments -->
                 
                     
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2018/03/07/Hexo+Github 的搭建/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2018/03/07/Hexo+Github 的搭建/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//Musuc.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
                 
             </div>
 
@@ -689,7 +729,19 @@
     <!-- Pages  -->
     
         <li>
+            <a href="/about" title="About">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                About
+            </a>
+        </li>
+        
+    
+        <li>
             <a href="/links" title="友情链接">
+                
+                    <i class="material-icons sidebar-material-icons">people</i>
                 
                 友情链接
             </a>
@@ -699,6 +751,8 @@
         <li>
             <a href="/tags" title="标签云">
                 
+                    <i class="material-icons sidebar-material-icons">fingerprint</i>
+                
                 标签云
             </a>
         </li>
@@ -706,6 +760,8 @@
     
         <li>
             <a href="/timeline" title="时间轴">
+                
+                    <i class="material-icons sidebar-material-icons">3d_rotation</i>
                 
                 时间轴
             </a>
@@ -891,6 +947,9 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//Musuc.disqus.com/count.js" async></script>
 
 
 

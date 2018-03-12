@@ -72,7 +72,7 @@
 
     
         <meta property="article:published_time" content="3月 08, 2018" />
-        <meta property="article:modified_time" content="3月 09, 2018" />
+        <meta property="article:modified_time" content="3月 12, 2018" />
     
 
     <!-- The Twitter Card protocol -->
@@ -113,7 +113,7 @@
     "headline": "为Hexo优化",
     "url": "http://yoursite.com/2018/03/08/为Hexo优化/index.html",
     "datePublished": "3月 08, 2018",
-    "dateModified": "3月 09, 2018",
+    "dateModified": "3月 12, 2018",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -360,17 +360,8 @@
                 
     <!-- Paradox Post Header -->
     
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script type="text/ls-javascript" id="post-thumbnail-script">
-    var randomNum = Math.floor(Math.random() * 19 + 1);
-
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-</script>
-
-        
+        <!-- Custom Thumbnail -->
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(/img/fohead.jpg)">
     
             <p class="article-headline-p">
                 为Hexo优化
@@ -521,7 +512,7 @@
 <li>使用 ssh实现与github的免密上传。</li>
 </ul>
 <hr>
-<h2 id="生成ssh的密钥文件"><a href="#生成ssh的密钥文件" class="headerlink" title="生成ssh的密钥文件"></a>生成ssh的密钥文件</h2><p>在命令行中输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 256 -C &quot;your_email@example.com&quot;</span><br></pre></td></tr></table></figure></p>
+<h2 id="生成ssh的密钥文件"><a href="#生成ssh的密钥文件" class="headerlink" title="生成ssh的密钥文件"></a>生成ssh的密钥文件</h2><p>在命令行中输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t ecdsa -b 256 -C &quot;your_email@example.com&quot;</span><br></pre></td></tr></table></figure></p>
 <ul>
 <li>这行命令将会生成一个以<a href="mailto:your_email@example.com" target="_blank" rel="noopener">your_email@example.com</a>为标签的ssh key，接着bash会显示：</li>
 </ul>
@@ -577,6 +568,35 @@
                 <!-- Post Comments -->
                 
                     
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2018/03/08/为Hexo优化/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2018/03/08/为Hexo优化/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//Musuc.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
+</script>
+
+</div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
                 
             </div>
 
@@ -694,7 +714,19 @@
     <!-- Pages  -->
     
         <li>
+            <a href="/about" title="About">
+                
+                    <i class="material-icons sidebar-material-icons">person</i>
+                
+                About
+            </a>
+        </li>
+        
+    
+        <li>
             <a href="/links" title="友情链接">
+                
+                    <i class="material-icons sidebar-material-icons">people</i>
                 
                 友情链接
             </a>
@@ -704,6 +736,8 @@
         <li>
             <a href="/tags" title="标签云">
                 
+                    <i class="material-icons sidebar-material-icons">fingerprint</i>
+                
                 标签云
             </a>
         </li>
@@ -711,6 +745,8 @@
     
         <li>
             <a href="/timeline" title="时间轴">
+                
+                    <i class="material-icons sidebar-material-icons">3d_rotation</i>
                 
                 时间轴
             </a>
@@ -896,6 +932,9 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+
+   <!-- 使用 DISQUS js 代码 -->
+<script id="dsq-count-scr" src="//Musuc.disqus.com/count.js" async></script>
 
 
 
