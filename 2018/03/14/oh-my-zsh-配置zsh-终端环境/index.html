@@ -12,7 +12,7 @@
     
     <title>
         
-            oh-my-zsh+zsh 强大的终端环境 | 
+            oh-my-zsh + zsh 强大的终端环境 | 
         
         Musuc&#39;s bolg
     </title>
@@ -65,7 +65,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="oh-my-zsh+zsh 强大的终端环境 | Musuc&#39;s bolg">
+    <meta property="og:title" content="oh-my-zsh + zsh 强大的终端环境 | Musuc&#39;s bolg">
     <meta property="og:image" content="/img/gufeng.jpg" />
     <meta property="og:description" content="">
     <meta property="og:article:tag" content="Linux"> 
@@ -76,7 +76,7 @@
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="oh-my-zsh+zsh 强大的终端环境 | Musuc&#39;s bolg">
+    <meta name="twitter:title" content="oh-my-zsh + zsh 强大的终端环境 | Musuc&#39;s bolg">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/gufeng.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -110,7 +110,7 @@
         },
         "description": "胸藏文墨怀若谷"
     },
-    "headline": "oh-my-zsh+zsh 强大的终端环境",
+    "headline": "oh-my-zsh + zsh 强大的终端环境",
     "url": "http://yoursite.com/2018/03/14/oh-my-zsh-配置zsh-终端环境/index.html",
     "datePublished": "3月 14, 2018",
     "dateModified": "3月 15, 2018",
@@ -364,7 +364,7 @@
         <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://www.g-photography.net/file_picture/69/69891/426791.jpg)">
     
             <p class="article-headline-p">
-                oh-my-zsh+zsh 强大的终端环境
+                oh-my-zsh + zsh 强大的终端环境
             </p>
         </div>
 
@@ -434,7 +434,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=oh-my-zsh+zsh 强大的终端环境&url=http://yoursite.com/2018/03/14/oh-my-zsh-配置zsh-终端环境/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=oh-my-zsh + zsh 强大的终端环境&url=http://yoursite.com/2018/03/14/oh-my-zsh-配置zsh-终端环境/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -443,7 +443,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=oh-my-zsh+zsh 强大的终端环境&url=http://yoursite.com/2018/03/14/oh-my-zsh-配置zsh-终端环境/index.html&via=沐成尘" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=oh-my-zsh + zsh 强大的终端环境&url=http://yoursite.com/2018/03/14/oh-my-zsh-配置zsh-终端环境/index.html&via=沐成尘" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -473,7 +473,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Musuc&#39;s bolg&title=oh-my-zsh+zsh 强大的终端环境&summary=&pics=http://yoursite.com/img/gufeng.jpg&url=http://yoursite.com/2018/03/14/oh-my-zsh-配置zsh-终端环境/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Musuc&#39;s bolg&title=oh-my-zsh + zsh 强大的终端环境&summary=&pics=http://yoursite.com/img/gufeng.jpg&url=http://yoursite.com/2018/03/14/oh-my-zsh-配置zsh-终端环境/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -495,20 +495,23 @@
 <h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>zsh 是一个强大的 bash 替代，而 oh-my-zsh 是 zsh 的一键式配置工具，尤其是配合一些插件，功能强大，好用又便捷。</p>
 <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul>
 <li><p>我们看一下系统内置了几种shell：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ cat /etc/shells</span><br><span class="line">#</span><br><span class="line"># /etc/shells</span><br><span class="line">#</span><br><span class="line"></span><br><span class="line">/bin/sh</span><br><span class="line">/bin/bash</span><br></pre></td></tr></table></figure>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">cat</span> <span class="string">/etc/shells</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># /etc/shells</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"></span><br><span class="line"><span class="string">/bin/sh</span></span><br><span class="line"><span class="string">/bin/bash</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>我的电脑现在仅仅只有2种；<code>sh</code>和<code>bash</code>。</p>
 </li>
 </ul>
 <blockquote>
 <ol>
-<li>当然如果你使用的是Mac，你会现多了一个zsh，也就是说OSX系统预装了zsh。<br></li>
+<li>当然如果你使用的是Mac，你会发现多了一个zsh，也就是说OSX系统预装了zsh。<br></li>
 <li>目前大部分的Linux和OSX系统默认使用bash；其实真正强大的shell是深藏不漏的zsh，史称<code>终极Shell</code>，但是由于配置过于复杂，很多人看了几分钟的zsh使用指南，什么都没说直接关了网页走了。直到有一天，oh-my-zsh被一个程序员做了出来，速成突然变成了可能。</li>
 </ol>
 </blockquote>
 <h2 id="安装zsh"><a href="#安装zsh" class="headerlink" title="安装zsh"></a>安装zsh</h2><ul>
-<li><p>linux下终端运行：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install zsh zsh-completions</span><br><span class="line">或</span><br><span class="line">sudo pacman -S zsh zsh-completions</span><br></pre></td></tr></table></figure>
+<li><p>Ubuntu用户可以在终端运行：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install zsh zsh-completions</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用pacman包管理器的用户可以：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo pacman -S zsh zsh-completions</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>zsh-completions 包是用以增强zsh的补全功能。</p>
 </li>
@@ -567,10 +570,10 @@
 <li><p>查看当前shell现有别名，终端下输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ alias</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>其他推荐配置</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">alias cls=&apos;clear&apos;</span><br><span class="line">alias ll=&apos;ls -l&apos;</span><br><span class="line">alias la=&apos;ls -a&apos;</span><br><span class="line">alias vi=&apos;vim&apos;</span><br><span class="line">alias md=&apos;mkdir -p&apos;</span><br><span class="line">alias javac=&quot;javac -J-Dfile.encoding=utf8&quot;</span><br><span class="line">alias grep=&quot;grep --color=auto&quot;</span><br><span class="line">alias -s html=mate   # 在命令行直接输入后缀为 html 的文件名，会在 TextMate 中打开</span><br><span class="line">alias -s rb=mate     # 在命令行直接输入 ruby 文件，会在 TextMate 中打开</span><br><span class="line">alias -s py=vi       # 在命令行直接输入 python 文件，会用 vim 中打开，以下类似</span><br><span class="line">alias -s js=vi</span><br><span class="line">alias -s c=vi</span><br><span class="line">alias -s java=vi</span><br><span class="line">alias -s txt=vi</span><br><span class="line">alias -s gz=&apos;tar -xzvf&apos;</span><br><span class="line">alias -s tgz=&apos;tar -xzvf&apos;</span><br><span class="line">alias -s zip=&apos;unzip&apos;</span><br><span class="line">alias -s bz2=&apos;tar -xjvf&apos;</span><br></pre></td></tr></table></figure>
+<li><p>Bash 里一些常用的别名：</p>
 </li>
 </ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">alias la=&apos;ls -Fa&apos;          # 列出所有文件</span><br><span class="line">alias ll=&apos;ls -Fls&apos;         # 列出文件详细信息</span><br><span class="line"></span><br><span class="line">alias rm=&apos;rm -i&apos;           # 删除前需确认</span><br><span class="line">alias cp=&apos;cp -i&apos;           # 覆盖前需确认</span><br><span class="line">alias mv=&apos;mv -i&apos;           # 覆盖前需确认</span><br><span class="line"></span><br><span class="line">alias vi=&apos;vim&apos;             # 输入 vi 命令时使用 vim 编辑器</span><br></pre></td></tr></table></figure>
 <h1 id="参考-鸣谢"><a href="#参考-鸣谢" class="headerlink" title="参考-鸣谢"></a>参考-鸣谢</h1><hr>
 <ul>
 <li><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview" target="_blank" rel="noopener">https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview</a></li>
@@ -798,6 +801,14 @@
 
     <!-- Article Number  -->
     
+        <li>
+            <a href="/archives">
+                文章总数
+                <span class="sidebar-badge">4</span>
+            </a>
+        </li>
+        
+    
 </ul>
 
 
@@ -813,8 +824,6 @@ It will not impact the appearance and can give developers a lot of support :)
 -->
 
 <!-- Sidebar Divider -->
-
-    <div class="sidebar-divider"></div>
 
 
 <!-- Theme Material -->
