@@ -12,7 +12,7 @@
     
     <title>
         
-            分类: 技术栈 | 
+            Manjaro Linux 系统主题色配置 | 
         
         Musuc&#39;s bolg
     </title>
@@ -36,7 +36,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="沐成尘">
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content=",Linux">
 
     <!-- Site Verification -->
     
@@ -65,15 +65,18 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="分类: 技术栈 | Musuc&#39;s bolg">
+    <meta property="og:title" content="Manjaro Linux 系统主题色配置 | Musuc&#39;s bolg">
     <meta property="og:image" content="/img/gufeng.jpg" />
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="Linux"> 
 
+    
+        <meta property="article:published_time" content="3月 20, 2018" />
+        <meta property="article:modified_time" content="3月 20, 2018" />
     
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="分类: 技术栈 | Musuc&#39;s bolg">
+    <meta name="twitter:title" content="Manjaro Linux 系统主题色配置 | Musuc&#39;s bolg">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="/img/gufeng.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -81,13 +84,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/categories/技术栈/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Musuc&#39;s bolg",
+        "logo": "/img/gufeng.jpg"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "沐成尘",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/gufeng.jpg"
+        },
+        "description": "胸藏文墨怀若谷"
+    },
+    "headline": "Manjaro Linux 系统主题色配置",
+    "url": "http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/index.html",
+    "datePublished": "3月 20, 2018",
+    "dateModified": "3月 20, 2018",
+    "description": "",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://yoursite.com"
+    }
+}
+</script>
 
 
     
@@ -275,270 +308,296 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+    <!-- Left aligned menu below button -->
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#问题"><span class="post-toc-number">1.</span> <span class="post-toc-text">问题</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#解决"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">解决</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#扩展"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">扩展</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#使用-dconf管理器-自定义主题色。"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">使用 dconf管理器 自定义主题色。</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#几种护眼色"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">几种护眼色</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#参考-鸣谢"><span class="post-toc-number">2.</span> <span class="post-toc-text">参考-鸣谢</span></a></li></ol>
+        <!--
+        <li class="mdl-menu__item">
+            Some Action
+        </li>
+        -->
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="http://www.g-photography.net/file_picture/69/69891/426791.jpg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(http://www.g-photography.net/file_picture/58/58812/391187.jpg)">
+    
+            <p class="article-headline-p">
+                Manjaro Linux 系统主题色配置
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/gufeng.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>沐成尘</strong>
+        <span>3月 20, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/">
+    
+</ul>
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/14/oh-my-zsh-配置zsh-终端环境/">oh-my-zsh + zsh 强大的终端环境</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/Linux/">Linux</a>
+    </ul>
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            人生苦短，我用zsh.
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
 
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/14/oh-my-zsh-配置zsh-终端环境/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/gufeng.jpg" width="44px" height="44px" alt="沐成尘's avatar">
-            </div>
-            <div>
-                <strong>沐成尘</strong>
-                <span>3月 14, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/技术栈/">技术栈</a>
-            </span>
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Manjaro Linux 系统主题色配置&url=http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/index.html&pic=&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Manjaro Linux 系统主题色配置&url=http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/index.html&via=沐成尘" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Musuc&#39;s bolg&title=Manjaro Linux 系统主题色配置&summary=&pics=http://yoursite.com/img/gufeng.jpg&url=http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
 </div>
 
-            
-            
-        
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+        <p>干掉讨厌的暗黑主题色。</p>
+<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><ul>
+<li><p>自从装了Manjaro，发现整体的风格过于偏暗，本来以为仅仅是Gnome桌面的设置问题，结果并没有那么简单，一些使用<code>Qt框架</code>的软件背景仍是暗色。</p>
+</li>
+<li><p>查阅wiki后我意识到是Gt风格的影响。</p>
+</li>
+</ul>
+<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><ul>
+<li><p>安装 <code>Qt风格设置</code></p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo</span> pacman -S  qt5-styleplugins qt5ct</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>终端输入 <code>qt5ct</code>，而后 <strong>更改</strong>  <code>外观</code>&gt;<code>风格</code>，点击 <code>应用</code>，重启应用就可以生效了。</p>
+</li>
+</ul>
+<blockquote>
+<p>到这一步，基本已经解决了一些软件因为基于Qt风格而产生的黑白违和问题。</p>
+</blockquote>
+<h2 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h2><h3 id="使用-dconf管理器-自定义主题色。"><a href="#使用-dconf管理器-自定义主题色。" class="headerlink" title="使用 dconf管理器 自定义主题色。"></a>使用 dconf管理器 自定义主题色。</h3><ul>
+<li><p>安装并打开 <strong>dconf editor</strong></p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo pacman -S dconf editor</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>进入 <strong>org/gnome/desktop/interface</strong></p>
+</li>
+<li><p>找到 <code>gtk-color-scheme</code> 自定义颜色。</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">参数如下：</span><br><span class="line"></span><br><span class="line"><span class="symbol">fg_color:</span>前景色的基础。</span><br><span class="line"><span class="symbol">bg_color:</span>颜色从中生成背景颜色。</span><br><span class="line"><span class="symbol">base_color:</span>基本颜色。</span><br><span class="line"><span class="symbol">text_color:</span>输入小部件中的文本颜色。</span><br><span class="line"><span class="symbol">selected_bg_color:</span>所选文本背景的颜色。</span><br><span class="line"><span class="symbol">selected_fg_color:</span>选定文本的颜色。</span><br><span class="line"><span class="symbol">tooltip_bg_color:</span>工具提示的背景颜色。</span><br><span class="line"><span class="symbol">tooltip_fg_color:</span>工具提示中文本的文本颜色。</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>书写格式为： <code>参数:#******;</code>  例如：</p>
+</li>
+</ul>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">bg_color</span>:<span class="number">#CCE8CF</span>;<span class="attribute">base_color</span>:<span class="number">#CCE8CF</span></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>注意</strong>：设置的时候下面的描述信息可能为A ‘\n’ separated list of “name:color” as defined by the ‘gtk-color-scheme’ setting，这里需要注意的是使用英文的”;”而不是”\n”。</p>
+</blockquote>
+<h2 id="几种护眼色"><a href="#几种护眼色" class="headerlink" title="几种护眼色"></a>几种护眼色</h2><table><tr><td bgcolor="#FFFFFF">银河白    #FFFFFF   RGB(255, 255, 255)</td></tr><tr><td bgcolor="#FAF9DE">杏仁黄    #FAF9DE   RGB(250, 249, 222)</td></tr><tr><td bgcolor="#FFF2E2">秋叶褐    #FFF2E2   RGB(255, 242, 226)</td></tr><tr><td bgcolor="#FDE6E0">胭脂红    #FDE6E0   RGB(253, 230, 224)</td></tr><tr><td bgcolor="#E3EDCD">青草绿    #E3EDCD   RGB(227, 237, 205)</td></tr><tr><td bgcolor="#DCE2F1">海天蓝    #DCE2F1   RGB(220, 226, 241)</td></tr><tr><td bgcolor="#E9EBFE">葛巾紫    #E9EBFE   RGB(233, 235, 254)</td></tr><tr><td bgcolor="#EAEAEF">极光灰    #EAEAEF   RGB(234, 234, 239)</td></tr></table>
+
+<p><br></p>
+<h1 id="参考-鸣谢"><a href="#参考-鸣谢" class="headerlink" title="参考-鸣谢"></a>参考-鸣谢</h1><ul>
+<li><a href="https://wiki.archlinux.org/index.php/Uniform_look_for_Qt_and_GTK_applications" target="_blank" rel="noopener">https://wiki.archlinux.org/index.php/Uniform_look_for_Qt_and_GTK_applications</a></li>
+<li><a href="http://blog.csdn.net/zhengqiqiqinqin/article/details/8175893" target="_blank" rel="noopener">http://blog.csdn.net/zhengqiqiqinqin/article/details/8175893</a></li>
+</ul>
+
     
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/self/Disqus.png">
+
     
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/12/拥抱Disqus/">拥抱Disqus</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            评论系统是互动不可缺少的一部分，沟通同样也是桥梁。为博客搭建一个可靠的评论系统，我选择了Disqus。
-
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/12/拥抱Disqus/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/gufeng.jpg" width="44px" height="44px" alt="沐成尘's avatar">
-            </div>
-            <div>
-                <strong>沐成尘</strong>
-                <span>3月 12, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/技术栈/">技术栈</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
 </div>
 
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="http://www.g-photography.net/file_picture/66/66372/412543.jpg">
-    
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/08/为Hexo优化/">为Hexo优化</a></p>
-    </div>
+                
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            搭建完基本的框架，来为自己博客的美观和便捷性，做点功课。
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/08/为Hexo优化/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/gufeng.jpg" width="44px" height="44px" alt="沐成尘's avatar">
-            </div>
-            <div>
-                <strong>沐成尘</strong>
-                <span>3月 08, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/技术栈/">技术栈</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="/img/self/hexo.png">
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/03/07/Hexo+Github 的搭建/">利用Hexo+Github 搭建博客</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            万事开头难，第一次总是让人既困惑又欣喜。踏出第一步，远比空想有意义的多。
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/03/07/Hexo+Github 的搭建/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/gufeng.jpg" width="44px" height="44px" alt="沐成尘's avatar">
-            </div>
-            <div>
-                <strong>沐成尘</strong>
-                <span>3月 07, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                <a class="post_category-link" href="/categories/技术栈/">技术栈</a>
-            </span>
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://yoursite.com/2018/03/20/Arch Linux 系统颜色配置/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//Musuc.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
 </script>
 
-    
 </div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/03/19/修改-Gnome-3-Night-light-强度值/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
