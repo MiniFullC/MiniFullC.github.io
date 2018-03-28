@@ -4,12 +4,32 @@
 
     
   <url>
-    <loc>https://minifullc.github.io/2018/03/20/Arch%20Linux%20%E7%B3%BB%E7%BB%9F%E9%A2%9C%E8%89%B2%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2018-03-20T14:09:27.000Z</lastmod>
+    <loc>https://minifullc.github.io/2018/03/27/%E5%9B%BD%E9%99%85%E7%89%88%20MIUI/</loc>
+    <lastmod>2018-03-28T10:53:33.000Z</lastmod>
     <data>
         <display>
-        <title>Manjaro Linux 系统主题色配置</title>
-        <pubTime>2018-03-20T11:47:05.000Z</pubTime>
+        <title>国际版 MIUI</title>
+        <pubTime>2018-03-27T10:31:56.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+         
+           
+             
+              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://minifullc.github.io/2018/03/19/%E4%BF%AE%E6%94%B9-Gnome-3-Night-light-%E5%BC%BA%E5%BA%A6%E5%80%BC/</loc>
+    <lastmod>2018-03-28T10:50:52.000Z</lastmod>
+    <data>
+        <display>
+        <title>修改 Gnome 3 Night-light 强度值</title>
+        <pubTime>2018-03-19T12:40:23.000Z</pubTime>
         
         <tag>Linux</tag>
          
@@ -24,12 +44,12 @@
 
     
   <url>
-    <loc>https://minifullc.github.io/2018/03/19/%E4%BF%AE%E6%94%B9-Gnome-3-Night-light-%E5%BC%BA%E5%BA%A6%E5%80%BC/</loc>
-    <lastmod>2018-03-20T08:25:04.196Z</lastmod>
+    <loc>https://minifullc.github.io/2018/03/20/Arch%20Linux%20%E7%B3%BB%E7%BB%9F%E9%A2%9C%E8%89%B2%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2018-03-22T08:33:45.000Z</lastmod>
     <data>
         <display>
-        <title>修改 Gnome 3 Night-light 强度值</title>
-        <pubTime>2018-03-19T12:40:23.000Z</pubTime>
+        <title>Manjaro Linux 系统主题色配置</title>
+        <pubTime>2018-03-20T11:47:05.000Z</pubTime>
         
         <tag>Linux</tag>
          
