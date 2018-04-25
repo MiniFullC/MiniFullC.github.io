@@ -287,7 +287,7 @@
 
     <!-- Custom Head -->
     
-</head>
+<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 
     
@@ -335,7 +335,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#安装"><span class="post-toc-number">2.</span> <span class="post-toc-text">安装</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#共享文件"><span class="post-toc-number">3.</span> <span class="post-toc-text">共享文件</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#具体用法"><span class="post-toc-number">4.</span> <span class="post-toc-text">具体用法</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#参考"><span class="post-toc-number">5.</span> <span class="post-toc-text">参考</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">前言</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#安装"><span class="post-toc-number">2.</span> <span class="post-toc-text">安装</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#参考"><span class="post-toc-number">3.</span> <span class="post-toc-text">参考</span></a></li></ol>
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -495,35 +495,37 @@
 <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><hr>
 <p>woof 是一个小巧且快速的局域网文件共享工具，你的伙伴可以轻松的使用信任的工具访问该文件（例如weget或是浏览器）。当然也支持发送到安卓手机。</p>
 <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><ul>
-<li>下载安装woof<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install woof</span><br><span class="line"></span><br><span class="line">或是</span><br><span class="line"></span><br><span class="line">yaourt -S woof</span><br></pre></td></tr></table></figure>
-</li>
+<li>下载安装woof<br><code>`</code><br>sudo apt-get install woof</li>
 </ul>
-<h1 id="共享文件"><a href="#共享文件" class="headerlink" title="共享文件"></a>共享文件</h1><ul>
-<li>安装完毕后，打开终端。</li>
-</ul>
-<blockquote>
-<p>这里假如我要通过 <strong>8000端口</strong> 发送一个文件 <strong>x</strong>，这个文件的路径是 ~/dist/x</p>
-</blockquote>
-<ul>
-<li><p>终端输入：</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo woof -<span class="selector-tag">p</span> <span class="number">8000</span> ~/dist/x</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>将会显示如下地址：</p>
-<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Now serving <span class="keyword">on</span> http:<span class="comment">//172.168.1.102:8000/x</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>在浏览器中输入地址 <code>http://172.168.1.102:8000/x</code> 就可以下载文件了。</p>
-</li>
-</ul>
-<h1 id="具体用法"><a href="#具体用法" class="headerlink" title="具体用法"></a>具体用法</h1><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">woof [-i <span class="tag">&lt;<span class="name">ip_addr</span>&gt;</span>] [-p <span class="tag">&lt;<span class="name">port</span>&gt;</span>] [-c <span class="tag">&lt;<span class="name">count</span>&gt;</span>] <span class="tag">&lt;<span class="name">file</span>&gt;</span></span><br><span class="line">woof [-i <span class="tag">&lt;<span class="name">ip_addr</span>&gt;</span>] [-p <span class="tag">&lt;<span class="name">port</span>&gt;</span>] [-c <span class="tag">&lt;<span class="name">count</span>&gt;</span>] [-z|-j|-Z|-u] <span class="tag">&lt;<span class="name">dir</span>&gt;</span></span><br><span class="line">woof [-i <span class="tag">&lt;<span class="name">ip_addr</span>&gt;</span>] [-p <span class="tag">&lt;<span class="name">port</span>&gt;</span>] [-c <span class="tag">&lt;<span class="name">count</span>&gt;</span>] -s</span><br><span class="line">woof [-i <span class="tag">&lt;<span class="name">ip_addr</span>&gt;</span>] [-p <span class="tag">&lt;<span class="name">port</span>&gt;</span>] [-c <span class="tag">&lt;<span class="name">count</span>&gt;</span>] -U</span><br><span class="line"></span><br><span class="line">woof <span class="tag">&lt;<span class="name">url</span>&gt;</span></span><br><span class="line"></span><br><span class="line">-i：指定地址。</span><br><span class="line">-p：指定端口。</span><br><span class="line">-c：指定服务文件次数，默认为仅1。</span><br><span class="line">-s：当指定-s而不是文件名时，woof会自行分配。</span><br><span class="line">-U：当指定-U时，woof提供上传表单，允许上传文件。</span><br><span class="line">-z|-j|-Z|-u：默认是gzip压缩的。您可以指定-z进行gzip压缩，-j用于bzip2压缩，-Z用于ZIP压缩或-u用于不压缩。</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>您可以在配置中配置默认​​的压缩方法。</p>
-</li>
-<li><p>可以在两个位置指定不同的默认值：<code>/ etc / woofrc</code> 或 <code>〜/ .woofrc</code> 可以是包含默认值的INI风格的配置文件端口和默认计数。主目录中的文件需要优先。压缩方法是“关”，“gz”，“bz2”或“zip”。</p>
-</li>
-<li><p>示例：</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[main]</span><br><span class="line">port = 8008</span><br><span class="line">count = 2</span><br><span class="line">ip = 127.0.0.1</span><br><span class="line">compressed = gz</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
+<p>或是</p>
+<p>yaourt -S woof</p>
+<pre><code>
+# 共享文件
+* 安装完毕后，打开终端。
+
+&gt; 这里假如我要通过 **8000端口** 发送一个文件 **x**，这个文件的路径是 ~/dist/x
+
+* 终端输入：
+</code></pre><p>sudo woof -p 8000 ~/dist/x</p>
+<pre><code>
+* 将会显示如下地址：
+</code></pre><p>Now serving on <a href="http://172.168.1.102:8000/x" target="_blank" rel="noopener">http://172.168.1.102:8000/x</a></p>
+<pre><code>
+* 在浏览器中输入地址 `http://172.168.1.102:8000/x` 就可以下载文件了。
+
+
+
+# 具体用法
+
+</code></pre><p>woof [-i &lt;ip_addr&gt;] [-p <port>] [-c <count>] <file><br>woof [-i &lt;ip_addr&gt;] [-p <port>] [-c <count>] [-z|-j|-Z|-u] <dir><br>woof [-i &lt;ip_addr&gt;] [-p <port>] [-c <count>] -s<br>woof [-i &lt;ip_addr&gt;] [-p <port>] [-c <count>] -U</count></port></count></port></dir></count></port></file></count></port></p>
+<p>woof <url></url></p>
+<p>-i：指定地址。<br>-p：指定端口。<br>-c：指定服务文件次数，默认为仅1。<br>-s：当指定-s而不是文件名时，woof会自行分配。<br>-U：当指定-U时，woof提供上传表单，允许上传文件。<br>-z|-j|-Z|-u：默认是gzip压缩的。您可以指定-z进行gzip压缩，-j用于bzip2压缩，-Z用于ZIP压缩或-u用于不压缩。</p>
+<pre><code>* 您可以在配置中配置默认​​的压缩方法。
+
+* 可以在两个位置指定不同的默认值：`/ etc / woofrc` 或 `〜/ .woofrc` 可以是包含默认值的INI风格的配置文件端口和默认计数。主目录中的文件需要优先。压缩方法是“关”，“gz”，“bz2”或“zip”。
+
+* 示例：
+</code></pre><p>[main]<br>port = 8008<br>count = 2<br>ip = 127.0.0.1<br>compressed = gz<br><code>`</code></p>
 <h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ul>
 <li><a href="http://www.home.unix-ag.org/simon/woof.html" target="_blank" rel="noopener">http://www.home.unix-ag.org/simon/woof.html</a></li>
 </ul>

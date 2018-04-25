@@ -72,7 +72,7 @@
 
     
         <meta property="article:published_time" content="3月 07, 2018" />
-        <meta property="article:modified_time" content="3月 12, 2018" />
+        <meta property="article:modified_time" content="4月 25, 2018" />
     
 
     <!-- The Twitter Card protocol -->
@@ -113,7 +113,7 @@
     "headline": "利用Hexo+Github 搭建博客",
     "url": "https://minifullc.github.io/2018/03/07/Hexo+Github 的搭建/index.html",
     "datePublished": "3月 07, 2018",
-    "dateModified": "3月 12, 2018",
+    "dateModified": "4月 25, 2018",
     "description": "",
     "mainEntityOfPage": {
         "@type": "WebPage",
@@ -287,7 +287,7 @@
 
     <!-- Custom Head -->
     
-</head>
+<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 
     
@@ -499,12 +499,14 @@
 <li>下载git。</li>
 </ul>
 <ol>
-<li><p>在Ubuntu下可以打开终端输入：</p>
-<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install nodejs npm git</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>使用Arch Linux用户可以输入：</p>
-<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">pacman -S nodejs npm git</span><br><span class="line"></span><br><span class="line">或</span><br><span class="line"> </span><br><span class="line">sudo yaourt -S <span class="keyword">node</span> <span class="title">js</span> npm git`</span><br></pre></td></tr></table></figure>
-</li>
+<li>在Ubuntu下可以打开终端输入：<pre><code>sudo apt-get install nodejs npm git
+</code></pre></li>
+</ol>
+<ol>
+<li>使用Arch Linux用户可以输入：<pre><code>pacman -S nodejs npm git
+或
+sudo yaourt -S node js npm git`
+</code></pre></li>
 </ol>
 <blockquote>
 <p>Windows 用户可自行搜索安装。</p>
@@ -515,46 +517,49 @@
 </ul>
 <h2 id="在本地搭建hexo博客"><a href="#在本地搭建hexo博客" class="headerlink" title="在本地搭建hexo博客"></a>在本地搭建hexo博客</h2><ul>
 <li>新建一个文件夹，自定义文件夹的名称，如 Blog。</li>
-<li><p>在命令行中 输入：</p>
-<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-<span class="keyword">cli</span> -g</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>回车后会出现<code>WARN</code>，不用担心不会影响使用。</p>
-</li>
+<li>在命令行中 输入：<pre><code>npm install hexo-cli -g
+</code></pre></li>
+<li>回车后会出现<code>WARN</code>，不用担心不会影响使用。</li>
 <li>接下在你就会看到命令行窗口刷下了一大堆白字，下面我们来看一看Hexo是不是已经安装成功了。在命令行中输入：</li>
 </ul>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo -v</span></span><br></pre></td></tr></table></figure>
-<ul>
+<pre><code>hexo -v
+</code></pre><ul>
 <li>如果成功显示Hexo的版本信息并且识别成功了你的本地计算机配置，则说明已经安装成功了。</li>
 </ul>
 <h2 id="初始化Hexo"><a href="#初始化Hexo" class="headerlink" title="初始化Hexo"></a>初始化Hexo</h2><ul>
 <li>成功安装Hexo后，进入刚才新建的文件夹 Blog，在命令行中输入：</li>
 </ul>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo init</span></span><br></pre></td></tr></table></figure>
-<ul>
+<pre><code>hexo init
+</code></pre><ul>
 <li>紧接着输入：</li>
 </ul>
-<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span></span><br></pre></td></tr></table></figure>
-<ul>
+<pre><code>npm install
+</code></pre><ul>
 <li>之后npm将自动安装所需要的组件，这需要点时间，耐心等一会哦。</li>
 <li>当组件安装完成后，连续输入两行指令：</li>
 </ul>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
-<ul>
+<pre><code>hexo g
+hexo s
+</code></pre><ul>
 <li>然后会提示一行指令：</li>
 </ul>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">INFO  <span class="keyword">Start</span> processing</span><br><span class="line">INFO  Hexo <span class="keyword">is</span> running <span class="keyword">at</span> <span class="keyword">http</span>://localhost:<span class="number">4000</span>/. Press Ctrl+C <span class="keyword">to</span> stop.</span><br></pre></td></tr></table></figure>
-<ul>
+<pre><code>INFO  Start processing
+INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.
+</code></pre><ul>
 <li>在浏览器中打开这个链接：<code>http://localhost:4000/</code>，成功显示Hexo的默认模板。</li>
 <li>到目前为止，Hexo在本地的配置已经全都结束了。</li>
 </ul>
 <hr>
 <h2 id="将本地博客与Github关联"><a href="#将本地博客与Github关联" class="headerlink" title="将本地博客与Github关联"></a>将本地博客与Github关联</h2><ul>
 <li>在Github上创建名字为xxx.github.io的项目，XXX是自己GIthub的用户名。</li>
-<li>打开本地的Blog文件夹内的<em>_config.yml</em> 配置文件，将其中的type设置为git，并且在<em>repository：</em> 后写上自己Github的项目地址。</li>
-</ul>
-<figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">deploy:</span></span><br><span class="line"><span class="string">type:</span> git</span><br><span class="line"><span class="string">repository:</span> <span class="string">https:</span><span class="comment">//github.com/MiniFullC/MiniFullC.github.io.git</span></span><br><span class="line"><span class="string">branch:</span> master</span><br></pre></td></tr></table></figure>
-<ul>
-<li>保存后运行：<em>npm install hexo-deployer-git –save</em></li>
+<li><p>打开本地的Blog文件夹内的<em>_config.yml</em> 配置文件，将其中的type设置为git，并且在<em>repository：</em> 后写上自己Github的项目地址。</p>
+<pre><code>deploy:
+type: git
+repository: https://github.com/MiniFullC/MiniFullC.github.io.git
+branch: master
+</code></pre></li>
+<li><p>保存后运行：<em>npm install hexo-deployer-git –save</em></p>
+</li>
 <li>运行：<em>hexo g</em> （生成本地静态文件）</li>
 <li>运行：<em>hexo d</em> （将本地静态文件推送到Github上）</li>
 <li>此时hexo将会自动将本地的文件向github提交请求，接下来就会让你输入你github上的帐号和密码，输入正确后就会开始同步。</li>
@@ -568,12 +573,18 @@
 <li>好了知道了文章的存储地点那么如何快速的新建一个文章呢？</li>
 <li>在Hexo站点目录下右键打开命令行，输入 </li>
 </ul>
-<figure class="highlight haxe"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="type"></span>“***”</span><br></pre></td></tr></table></figure>
-<ul>
+<pre><code>hexo new “***”
+</code></pre><ul>
 <li>***是你自定义文章的名字我们发现站点根目录下的<code>source</code>文件夹中的 <code>_post</code> 文件夹中多了一个<code>XXX.md</code>的文件，使用Markdown编辑器打开</li>
 </ul>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">hello-world</span>   <span class="string">//在此处添加你的标题。</span></span><br><span class="line"><span class="attr">date:</span> <span class="number">2014</span><span class="bullet">-11</span><span class="bullet">-7</span> <span class="number">08</span><span class="string">:55:29</span>   <span class="string">//在此处输入你编辑这篇文章的时间。</span></span><br><span class="line"><span class="attr">categories:</span> <span class="string">Exercise</span>   <span class="string">//在此处输入这篇文章的分类。</span></span><br><span class="line"><span class="attr">toc:</span> <span class="literal">true</span>  </span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="string">//在此处输入这篇文章的内容。</span></span><br></pre></td></tr></table></figure>
-<ul>
+<pre><code>---
+title: hello-world   //在此处添加你的标题。
+date: 2014-11-7 08:55:29   //在此处输入你编辑这篇文章的时间。
+categories: Exercise   //在此处输入这篇文章的分类。
+toc: true  
+---
+//在此处输入这篇文章的内容。
+</code></pre><ul>
 <li>保存后，运行命令<code>hexo g</code>就可以进行渲染了。</li>
 </ul>
 <h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><ul>

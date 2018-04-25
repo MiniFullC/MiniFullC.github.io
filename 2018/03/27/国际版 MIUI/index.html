@@ -287,7 +287,7 @@
 
     <!-- Custom Head -->
     
-</head>
+<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
 
 
     
@@ -517,9 +517,11 @@
 </li>
 <li><p>将手机连接电脑，打开小米解锁工具，登录账号，一路同意协议后，点击 <strong>开始解锁</strong>。</p>
 </li>
-<li><p><strong>进入</strong> 下载好的 <strong>TWRP Recovery</strong> 文件夹中，打开命令行，依次输入：</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">fastboot</span> <span class="selector-tag">flash</span> <span class="selector-tag">recovery</span> <span class="selector-tag">twrp</span><span class="selector-class">.img</span></span><br><span class="line"></span><br><span class="line"><span class="selector-tag">fastboot</span> <span class="selector-tag">boot</span> <span class="selector-tag">twrp</span><span class="selector-class">.img</span></span><br></pre></td></tr></table></figure>
+<li><p><strong>进入</strong> 下载好的 <strong>TWRP Recovery</strong> 文件夹中，打开命令行，依次输入：<br><code>`</code><br>fastboot flash recovery twrp.img</p>
 </li>
+</ol>
+<p>fastboot boot twrp.img<br><code>`</code></p>
+<ol>
 <li><p>成功后手机会自动进入 <strong>TWRP</strong> ，此时会提示输入密码，也可以点击 <strong>Cancel</strong> 跳过。</p>
 </li>
 <li><p>点击 <strong>Setting</strong> 按钮，更改语言为简体中文，方便操作。</p>
