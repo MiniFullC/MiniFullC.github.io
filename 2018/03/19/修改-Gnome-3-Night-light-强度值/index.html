@@ -287,7 +287,7 @@
 
     <!-- Custom Head -->
     
-<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
+</head>
 
 
     
@@ -510,19 +510,23 @@
 </li>
 </ul>
 <ol>
-<li>Ubuntu：<pre><code>sudo apt-get install dconf-editor
-</code></pre></li>
-<li>Arch linux：<pre><code>sudo pacman -S dconf-editor
-</code></pre></li>
-<li>对于其他发行版本，使用相对应的软件安装命令。</li>
+<li><p>Ubuntu：</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install dconf-editor</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Arch linux：</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo pacman -S dconf-editor</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>对于其他发行版本，使用相对应的软件安装命令。</p>
+</li>
 </ol>
 <h2 id="修改参数"><a href="#修改参数" class="headerlink" title="修改参数"></a>修改参数</h2><ul>
 <li><p>打开刚刚安装的<code>dconf编辑器</code>。</p>
 </li>
 <li><p>选择对应位置：</p>
-<pre><code>org &gt; Gnome &gt; settings-daemon &gt; plugins &gt; color &gt; night-light-temperature
-</code></pre></li>
-<li>关闭默认值并在下面给出的框中输入自定义值。</li>
+<figure class="highlight rsl"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">org &gt; Gnome &gt; settings-daemon &gt; plugins &gt; <span class="keyword">color</span> &gt; night-<span class="class"><span class="keyword">light</span>-temperature</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>关闭默认值并在下面给出的框中输入自定义值。</p>
+</li>
 </ul>
 <p><img src="/img/imgQ/gnome.png" alt="SZ"></p>
 <h3 id="温度值："><a href="#温度值：" class="headerlink" title="温度值："></a>温度值：</h3><blockquote>

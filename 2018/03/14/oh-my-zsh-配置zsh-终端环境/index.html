@@ -287,7 +287,7 @@
 
     <!-- Custom Head -->
     
-<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
+</head>
 
 
     
@@ -335,7 +335,7 @@
 
     
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#介绍"><span class="post-toc-number">1.</span> <span class="post-toc-text">介绍</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#准备工作"><span class="post-toc-number">2.</span> <span class="post-toc-text">准备工作</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#etc-shells"><span class="post-toc-number">3.</span> <span class="post-toc-text">/etc/shells</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#参考-鸣谢"><span class="post-toc-number">4.</span> <span class="post-toc-text">参考-鸣谢</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#介绍"><span class="post-toc-number">1.</span> <span class="post-toc-text">介绍</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#准备工作"><span class="post-toc-number">2.</span> <span class="post-toc-text">准备工作</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装zsh"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">安装zsh</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#下载oh-my-zsh"><span class="post-toc-number">2.1.1.</span> <span class="post-toc-text">下载oh-my-zsh</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#配置"><span class="post-toc-number">2.1.2.</span> <span class="post-toc-text">配置</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#添加插件"><span class="post-toc-number">2.1.3.</span> <span class="post-toc-text">添加插件</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#一些实用的，非自带插件"><span class="post-toc-number">2.1.4.</span> <span class="post-toc-text">一些实用的，非自带插件</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#设置命令别名，让输入更便捷"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">设置命令别名，让输入更便捷</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#参考-鸣谢"><span class="post-toc-number">3.</span> <span class="post-toc-text">参考-鸣谢</span></a></li></ol>
         <!--
         <li class="mdl-menu__item">
             Some Action
@@ -494,80 +494,86 @@
         <p>人生苦短，我用zsh.</p>
 <h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>zsh 是一个强大的 bash 替代，而 oh-my-zsh 是 zsh 的一键式配置工具，尤其是配合一些插件，功能强大，好用又便捷。</p>
 <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul>
-<li>我们看一下系统内置了几种shell：<br><code>`</code>yaml<br>cat /etc/shells</li>
+<li><p>我们看一下系统内置了几种shell：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">cat</span> <span class="string">/etc/shells</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"><span class="comment"># /etc/shells</span></span><br><span class="line"><span class="comment">#</span></span><br><span class="line"></span><br><span class="line"><span class="string">/bin/sh</span></span><br><span class="line"><span class="string">/bin/bash</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>我的电脑现在仅仅只有2种；<code>sh</code>和<code>bash</code>。</p>
+</li>
 </ul>
-<p>#</p>
-<h1 id="etc-shells"><a href="#etc-shells" class="headerlink" title="/etc/shells"></a>/etc/shells</h1><p>#</p>
-<p>/bin/sh<br>/bin/bash</p>
-<pre><code>
-* 我的电脑现在仅仅只有2种；`sh`和`bash`。
-
-&gt;1. 当然如果你使用的是Mac，你会发现多了一个zsh，也就是说OSX系统预装了zsh。&lt;br&gt;
-&gt;2. 目前大部分的Linux和OSX系统默认使用bash；其实真正强大的shell是深藏不漏的zsh，史称`终极Shell`，但是由于配置过于复杂，很多人看了几分钟的zsh使用指南，什么都没说直接关了网页走了。直到有一天，oh-my-zsh被一个程序员做了出来，速成突然变成了可能。
-
-
-
-## 安装zsh
-* Ubuntu用户可以在终端运行：
-</code></pre><p>sudo apt-get install zsh zsh-completions</p>
-<pre><code>* 使用pacman包管理器的用户可以：
-</code></pre><p>sudo pacman -S zsh zsh-completions</p>
-<pre><code>* zsh-completions 包是用以增强zsh的补全功能。
-* mac系统下无需安装。
-
-
-### 下载oh-my-zsh
-* weget安装：
-</code></pre><p>wget <a href="https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh" target="_blank" rel="noopener">https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh</a> -O - | sh</p>
-<pre><code>* 执行后自动读取系统环境变量并自动进行zsh配置。
-
-&gt; 切换到zsh
-</code></pre><p>chsh -s /usr/local/bin/zsh</p>
-<pre><code>
-
-### 配置
-* zsh配置文件在用户当前目录下的`.zshrc`中，打开它：
-</code></pre><p>vim ～/.zshrc</p>
-<pre><code>
-* 我们可以修改这个参数来自定义主题
-</code></pre><p>ZSH_THEME=”robbyrussell”   </p>
-<pre><code>* robbyrussell 是主题名。&gt;可挑选你喜欢的主题。
-
-### 添加插件
-&gt;在`.zshrc`文件中加入插件的名字，即可启动插件：
-</code></pre><p>plugins=( [plugins…] ) </p>
-<pre><code>* cp：显示复制进度。
-* git：默认开启的插件，提供了大量 git 的alias。[详情](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git。)
-* extract:功能强大的解压插件，所有类型的文件解压一个命令`x`全搞定，再也不需要去记tar后面到底是哪几个参数了。
-* z：强大的目录自动跳转命令，会记忆你曾经进入过的目录，用模糊匹配快速进入你想要的目录。
-
----
-
-### 一些实用的，非自带插件
- * `zsh-syntax-highlighting`：高亮你的zsh命令，正确显示绿色，错误显示红色。
-</code></pre><p> git clone <a href="https://github.com/zsh-users/zsh-syntax-highlighting.git" target="_blank" rel="noopener">https://github.com/zsh-users/zsh-syntax-highlighting.git</a> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting</p>
-<pre><code>* `zsh-autosuggestions`:自动匹配你历史的输入命令。
-</code></pre><p>git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</p>
-<pre><code>
-* 同样在`.zshrc` 文件中加入 `plugins=(... zsh-syntax-highlighting zsh-autosuggestions)`
-* 保存退出，并运行`source ./zshrc`，更新一下zsh，当然你也可以重新打开命令行，就可以享受zsh给你带来的便捷了。
-
-
-
-
-## 设置命令别名，让输入更便捷
-* 还是找到zsh的配置文件`.zshrc`，（～/.zshrc），添加命令别名：
-&gt;例如：`alias install=&quot;sudo apt-get install&quot;`
-
-* 应用配置文件，使配置生效 `source ～/.zshrc`
-* 查看当前shell现有别名，终端下输入：
-</code></pre><p>➜  ~ alias </p>
-<pre><code>
-* Bash 里一些常用的别名：
-
-</code></pre><p>alias la=’ls -Fa’          # 列出所有文件<br>alias ll=’ls -Fls’         # 列出文件详细信息</p>
-<p>alias rm=’rm -i’           # 删除前需确认<br>alias cp=’cp -i’           # 覆盖前需确认<br>alias mv=’mv -i’           # 覆盖前需确认</p>
-<p>alias vi=’vim’             # 输入 vi 命令时使用 vim 编辑器<br><code>`</code></p>
+<blockquote>
+<ol>
+<li>当然如果你使用的是Mac，你会发现多了一个zsh，也就是说OSX系统预装了zsh。<br></li>
+<li>目前大部分的Linux和OSX系统默认使用bash；其实真正强大的shell是深藏不漏的zsh，史称<code>终极Shell</code>，但是由于配置过于复杂，很多人看了几分钟的zsh使用指南，什么都没说直接关了网页走了。直到有一天，oh-my-zsh被一个程序员做了出来，速成突然变成了可能。</li>
+</ol>
+</blockquote>
+<h2 id="安装zsh"><a href="#安装zsh" class="headerlink" title="安装zsh"></a>安装zsh</h2><ul>
+<li><p>Ubuntu用户可以在终端运行：</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> install zsh zsh-completions</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用pacman包管理器的用户可以：</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo pacman -S zsh zsh-completions</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>zsh-completions 包是用以增强zsh的补全功能。</p>
+</li>
+<li>mac系统下无需安装。</li>
+</ul>
+<h3 id="下载oh-my-zsh"><a href="#下载oh-my-zsh" class="headerlink" title="下载oh-my-zsh"></a>下载oh-my-zsh</h3><ul>
+<li><p>weget安装：</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https:<span class="regexp">//gi</span>thub.com<span class="regexp">/robbyrussell/</span>oh-my-zsh<span class="regexp">/raw/m</span>aster<span class="regexp">/tools/i</span>nstall.sh -O - | sh</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>执行后自动读取系统环境变量并自动进行zsh配置。</p>
+</li>
+</ul>
+<blockquote>
+<p>切换到zsh<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chsh -s <span class="regexp">/usr/</span>local<span class="regexp">/bin/</span>zsh</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h3 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h3><ul>
+<li><p>zsh配置文件在用户当前目录下的<code>.zshrc</code>中，打开它：</p>
+<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim ～<span class="string">/.zshrc</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>我们可以修改这个参数来自定义主题</p>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">ZSH_THEME</span>=<span class="string">"robbyrussell"</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>robbyrussell 是主题名。&gt;可挑选你喜欢的主题。</p>
+</li>
+</ul>
+<h3 id="添加插件"><a href="#添加插件" class="headerlink" title="添加插件"></a>添加插件</h3><blockquote>
+<p>在<code>.zshrc</code>文件中加入插件的名字，即可启动插件：<br><figure class="highlight ini"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">plugins</span>=( [plugins...] )</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<ul>
+<li>cp：显示复制进度。</li>
+<li>git：默认开启的插件，提供了大量 git 的alias。<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git。" target="_blank" rel="noopener">详情</a></li>
+<li>extract:功能强大的解压插件，所有类型的文件解压一个命令<code>x</code>全搞定，再也不需要去记tar后面到底是哪几个参数了。</li>
+<li>z：强大的目录自动跳转命令，会记忆你曾经进入过的目录，用模糊匹配快速进入你想要的目录。</li>
+</ul>
+<hr>
+<h3 id="一些实用的，非自带插件"><a href="#一些实用的，非自带插件" class="headerlink" title="一些实用的，非自带插件"></a>一些实用的，非自带插件</h3><ul>
+<li><code>zsh-syntax-highlighting</code>：高亮你的zsh命令，正确显示绿色，错误显示红色。<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https:<span class="regexp">//gi</span>thub.com<span class="regexp">/zsh-users/</span>zsh-syntax-highlighting.git <span class="variable">$&#123;ZSH_CUSTOM:-~/.oh-my-zsh/custom&#125;</span><span class="regexp">/plugins/</span>zsh-syntax-highlighting</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<ul>
+<li><p><code>zsh-autosuggestions</code>:自动匹配你历史的输入命令。</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git:<span class="regexp">//gi</span>thub.com<span class="regexp">/zsh-users/</span>zsh-autosuggestions <span class="variable">$ZSH_CUSTOM</span><span class="regexp">/plugins/</span>zsh-autosuggestions</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>同样在<code>.zshrc</code> 文件中加入 <code>plugins=(... zsh-syntax-highlighting zsh-autosuggestions)</code></p>
+</li>
+<li>保存退出，并运行<code>source ./zshrc</code>，更新一下zsh，当然你也可以重新打开命令行，就可以享受zsh给你带来的便捷了。</li>
+</ul>
+<h2 id="设置命令别名，让输入更便捷"><a href="#设置命令别名，让输入更便捷" class="headerlink" title="设置命令别名，让输入更便捷"></a>设置命令别名，让输入更便捷</h2><ul>
+<li><p>还是找到zsh的配置文件<code>.zshrc</code>，（～/.zshrc），添加命令别名：</p>
+<blockquote>
+<p>例如：<code>alias install=&quot;sudo apt-get install&quot;</code></p>
+</blockquote>
+</li>
+<li><p>应用配置文件，使配置生效 <code>source ～/.zshrc</code></p>
+</li>
+<li><p>查看当前shell现有别名，终端下输入：</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">➜  ~ <span class="built_in">alias</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>Bash 里一些常用的别名：</p>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">alias</span> la=<span class="string">'ls -Fa'</span>          <span class="comment"># 列出所有文件</span></span><br><span class="line"><span class="built_in">alias</span> ll=<span class="string">'ls -Fls'</span>         <span class="comment"># 列出文件详细信息</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> rm=<span class="string">'rm -i'</span>           <span class="comment"># 删除前需确认</span></span><br><span class="line"><span class="built_in">alias</span> cp=<span class="string">'cp -i'</span>           <span class="comment"># 覆盖前需确认</span></span><br><span class="line"><span class="built_in">alias</span> mv=<span class="string">'mv -i'</span>           <span class="comment"># 覆盖前需确认</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">alias</span> vi=<span class="string">'vim'</span>             <span class="comment"># 输入 vi 命令时使用 vim 编辑器</span></span><br></pre></td></tr></table></figure>
 <h1 id="参考-鸣谢"><a href="#参考-鸣谢" class="headerlink" title="参考-鸣谢"></a>参考-鸣谢</h1><hr>
 <ul>
 <li><a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview" target="_blank" rel="noopener">https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins-Overview</a></li>

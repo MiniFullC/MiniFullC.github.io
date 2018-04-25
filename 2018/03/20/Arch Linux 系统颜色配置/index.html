@@ -287,7 +287,7 @@
 
     <!-- Custom Head -->
     
-<link rel="stylesheet" href="/css/prism.css" type="text/css"></head>
+</head>
 
 
     
@@ -500,8 +500,8 @@
 </ul>
 <h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><ul>
 <li><p>安装 <code>Qt风格设置</code></p>
-<pre><code>sudo pacman -S  qt5-styleplugins qt5ct
-</code></pre></li>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo</span> pacman -S  qt5-styleplugins qt5ct</span><br></pre></td></tr></table></figure>
+</li>
 <li><p>终端输入 <code>qt5ct</code>，而后 <strong>更改</strong>  <code>外观</code>&gt;<code>风格</code>，点击 <code>应用</code>，重启应用就可以生效了。</p>
 </li>
 </ul>
@@ -510,18 +510,17 @@
 </blockquote>
 <h2 id="扩展"><a href="#扩展" class="headerlink" title="扩展"></a>扩展</h2><h3 id="使用-dconf管理器-自定义主题色。"><a href="#使用-dconf管理器-自定义主题色。" class="headerlink" title="使用 dconf管理器 自定义主题色。"></a>使用 dconf管理器 自定义主题色。</h3><ul>
 <li><p>安装并打开 <strong>dconf editor</strong></p>
-<pre><code>sudo pacman -S dconf editor
-</code></pre></li>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">sudo pacman -S dconf editor</span></span><br></pre></td></tr></table></figure>
+</li>
 <li><p>进入 <strong>org/gnome/desktop/interface</strong></p>
 </li>
-<li><p>找到 <code>gtk-color-scheme</code> 自定义颜色。<br><code>`</code><br>参数如下：</p>
+<li><p>找到 <code>gtk-color-scheme</code> 自定义颜色。</p>
+<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">参数如下：</span><br><span class="line"></span><br><span class="line"><span class="symbol">fg_color:</span>前景色的基础。</span><br><span class="line"><span class="symbol">bg_color:</span>颜色从中生成背景颜色。</span><br><span class="line"><span class="symbol">base_color:</span>基本颜色。</span><br><span class="line"><span class="symbol">text_color:</span>输入小部件中的文本颜色。</span><br><span class="line"><span class="symbol">selected_bg_color:</span>所选文本背景的颜色。</span><br><span class="line"><span class="symbol">selected_fg_color:</span>选定文本的颜色。</span><br><span class="line"><span class="symbol">tooltip_bg_color:</span>工具提示的背景颜色。</span><br><span class="line"><span class="symbol">tooltip_fg_color:</span>工具提示中文本的文本颜色。</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>书写格式为： <code>参数:#******;</code>  例如：</p>
 </li>
 </ul>
-<p>fg_color:前景色的基础。<br>bg_color:颜色从中生成背景颜色。<br>base_color:基本颜色。<br>text_color:输入小部件中的文本颜色。<br>selected_bg_color:所选文本背景的颜色。<br>selected_fg_color:选定文本的颜色。<br>tooltip_bg_color:工具提示的背景颜色。<br>tooltip_fg_color:工具提示中文本的文本颜色。</p>
-<pre><code>
-* 书写格式为： ``参数:#******;``  例如：
-
-</code></pre><p>bg_color:#CCE8CF;base_color:#CCE8CF<br><code>`</code></p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">bg_color</span>:<span class="number">#CCE8CF</span>;<span class="attribute">base_color</span>:<span class="number">#CCE8CF</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p><strong>注意</strong>：设置的时候下面的描述信息可能为A ‘\n’ separated list of “name:color” as defined by the ‘gtk-color-scheme’ setting，这里需要注意的是使用英文的”;”而不是”\n”。</p>
 </blockquote>
