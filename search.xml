@@ -3,15 +3,6 @@
   
     
     <entry>
-      <title>这是一个模拟网页</title>
-      <link href="/2018/06/30/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%A8%A1%E6%8B%9F%E7%BD%91%E9%A1%B5/"/>
-      <url>/2018/06/30/%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E6%A8%A1%E6%8B%9F%E7%BD%91%E9%A1%B5/</url>
-      <content type="html"><![CDATA[<p><br></p><h1 id="展示单色颜色框"><a href="#展示单色颜色框" class="headerlink" title="展示单色颜色框"></a>展示单色颜色框</h1><table><tr><td bgcolor="#FFFFFF">银河白    #FFFFFF   RGB(255, 255, 255)</td></tr><tr><td bgcolor="#FAF9DE">杏仁黄    #FAF9DE   RGB(250, 249, 222)</td></tr><tr><td bgcolor="#FFF2E2">秋叶褐    #FFF2E2   RGB(255, 242, 226)</td></tr><tr><td bgcolor="#FDE6E0">胭脂红    #FDE6E0   RGB(253, 230, 224)</td></tr><tr><td bgcolor="#E3EDCD">青草绿    #E3EDCD   RGB(227, 237, 205)</td></tr><tr><td bgcolor="#DCE2F1">海天蓝    #DCE2F1   RGB(220, 226, 241)</td></tr><tr><td bgcolor="#E9EBFE">葛巾紫    #E9EBFE   RGB(233, 235, 254)</td></tr><tr><td bgcolor="#EAEAEF">极光灰    #EAEAEF   RGB(234, 234, 239)</td></tr></table><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p><code>sudo pacman -Syusudo pacman -S java</code></p><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><ul><li>zzz<ul><li>22 apt-get <strong>install</strong></li></ul></li></ul>]]></content>
-      
-      
-    </entry>
-    
-    <entry>
       <title>在局域网内快速共享文件</title>
       <link href="/2018/04/19/%E5%9C%A8%E5%B1%80%E5%9F%9F%E7%BD%91%E5%86%85%E5%BF%AB%E9%80%9F%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6/"/>
       <url>/2018/04/19/%E5%9C%A8%E5%B1%80%E5%9F%9F%E7%BD%91%E5%86%85%E5%BF%AB%E9%80%9F%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6/</url>
