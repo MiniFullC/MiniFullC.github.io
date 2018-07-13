@@ -246,7 +246,7 @@
 
     
         <meta property="article:published_time" content="Wed Mar 14 2018 21:08:36 GMT+0800">
-        <meta property="article:modified_time" content="Wed May 02 2018 19:10:22 GMT+0800">
+        <meta property="article:modified_time" content="Fri Jul 13 2018 14:36:46 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -269,7 +269,7 @@
     "mainEntityOfPage": "https://minifullc.github.io/2018/03/14/oh-my-zsh-配置zsh-终端环境/index.html",
     "headline": "oh-my-zsh + zsh 强大的终端环境",
     "datePublished": "Wed Mar 14 2018 21:08:36 GMT+0800",
-    "dateModified": "Wed May 02 2018 19:10:22 GMT+0800",
+    "dateModified": "Fri Jul 13 2018 14:36:46 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "沐成尘",
@@ -541,12 +541,13 @@
 <li>zsh-completions 包是用以增强zsh的补全功能。</li>
 <li>mac系统下无需安装。</li>
 </ul>
+<hr>
 <h3 id="下载oh-my-zsh"><a href="#下载oh-my-zsh" class="headerlink" title="下载oh-my-zsh"></a>下载oh-my-zsh</h3><ul>
-<li><p>weget安装：</p>
+<li>weget安装：</li>
+</ul>
 <pre><code>wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh
-</code></pre></li>
-<li><p>执行后自动读取系统环境变量并自动进行zsh配置。</p>
-</li>
+</code></pre><ul>
+<li>执行后自动读取系统环境变量并自动进行zsh配置。</li>
 </ul>
 <blockquote>
 <p>切换到zsh</p>
@@ -575,11 +576,10 @@
 </ul>
 <hr>
 <h3 id="一些实用的，非自带插件"><a href="#一些实用的，非自带插件" class="headerlink" title="一些实用的，非自带插件"></a>一些实用的，非自带插件</h3><ul>
-<li><p><code>zsh-syntax-highlighting</code>：高亮你的zsh命令，正确显示绿色，错误显示红色。</p>
-<pre><code>git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-</code></pre></li>
+<li><code>zsh-syntax-highlighting</code>：高亮你的zsh命令，正确显示绿色，错误显示红色。</li>
 </ul>
-<ul>
+<pre><code>git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+</code></pre><ul>
 <li><code>zsh-autosuggestions</code>:自动匹配你历史的输入命令。</li>
 </ul>
 <pre><code>git clone 
