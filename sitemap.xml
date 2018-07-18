@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
+    
+    <lastmod>2018-07-18T08:17:14.426Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://minifullc.github.io/2018/03/19/%E4%BF%AE%E6%94%B9-Gnome-3-Night-light-%E5%BC%BA%E5%BA%A6%E5%80%BC/</loc>
+    
+    <lastmod>2018-07-18T08:09:28.648Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
+    
+    <lastmod>2018-07-18T07:51:32.660Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://minifullc.github.io/2018/03/14/oh-my-zsh-%E9%85%8D%E7%BD%AEzsh-%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
     
     <lastmod>2018-07-13T06:36:46.420Z</lastmod>
@@ -33,20 +54,6 @@
     <loc>https://minifullc.github.io/2018/03/27/%E5%9B%BD%E9%99%85%E7%89%88%20MIUI/</loc>
     
     <lastmod>2018-04-25T12:53:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
-    
-    <lastmod>2018-04-25T12:01:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://minifullc.github.io/2018/03/19/%E4%BF%AE%E6%94%B9-Gnome-3-Night-light-%E5%BC%BA%E5%BA%A6%E5%80%BC/</loc>
-    
-    <lastmod>2018-03-28T10:50:52.000Z</lastmod>
     
   </url>
   

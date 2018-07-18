@@ -4,6 +4,66 @@
 
     
   <url>
+    <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
+    <lastmod>2018-07-18T08:17:14.426Z</lastmod>
+    <data>
+        <display>
+        <title>Linux SVN 命令行</title>
+        <pubTime>2018-07-18T07:27:19.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://minifullc.github.io/2018/03/19/%E4%BF%AE%E6%94%B9-Gnome-3-Night-light-%E5%BC%BA%E5%BA%A6%E5%80%BC/</loc>
+    <lastmod>2018-07-18T08:09:28.648Z</lastmod>
+    <data>
+        <display>
+        <title>修改 Gnome 3 Night-light 强度值</title>
+        <pubTime>2018-03-19T12:40:23.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="优化翩" url="https://minifullc.github.io/categories/%E4%BC%98%E5%8C%96%E7%BF%A9/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2018-07-18T07:51:32.660Z</lastmod>
+    <data>
+        <display>
+        <title>利用Hexo+Github 搭建博客</title>
+        <pubTime>2018-03-07T12:38:47.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://minifullc.github.io/2018/03/14/oh-my-zsh-%E9%85%8D%E7%BD%AEzsh-%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2018-07-13T06:36:46.420Z</lastmod>
     <data>
@@ -97,46 +157,6 @@
            
              
               <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2018-04-25T12:01:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>利用Hexo+Github 搭建博客</title>
-        <pubTime>2018-03-07T12:38:47.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/19/%E4%BF%AE%E6%94%B9-Gnome-3-Night-light-%E5%BC%BA%E5%BA%A6%E5%80%BC/</loc>
-    <lastmod>2018-03-28T10:50:52.000Z</lastmod>
-    <data>
-        <display>
-        <title>修改 Gnome 3 Night-light 强度值</title>
-        <pubTime>2018-03-19T12:40:23.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="优化翩" url="https://minifullc.github.io/categories/%E4%BC%98%E5%8C%96%E7%BF%A9/"/>
           
         </display>
     </data>
