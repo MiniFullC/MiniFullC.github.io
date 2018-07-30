@@ -45,7 +45,7 @@
     
     <title>
         
-            国际版 MIUI | 
+            Linux环境下创建Windows启动盘 | 
         
         Musuc&#39;s Blog
     </title>
@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content=",Android">
+    <meta name="keywords" content=",Linux">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -222,7 +222,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Musuc&#39;s Blog">
-    <meta name="msapplication-starturl" content="https://minifullc.github.io/2018/03/27/国际版 MIUI/">
+    <meta name="msapplication-starturl" content="https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Musuc&#39;s Blog">
@@ -237,16 +237,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://minifullc.github.io/2018/03/27/国际版 MIUI/">
+    <meta property="og:url" content="https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="国际版 MIUI | Musuc&#39;s Blog">
+    <meta property="og:title" content="Linux环境下创建Windows启动盘 | Musuc&#39;s Blog">
     <meta property="og:image" content="/img/gufeng.jpg">
     <meta property="og:description" content="">
-    <meta property="og:article:tag" content="Android"> 
+    <meta property="og:article:tag" content="Linux"> 
 
     
-        <meta property="article:published_time" content="Tue Mar 27 2018 18:31:56 GMT+0800">
-        <meta property="article:modified_time" content="Wed Apr 25 2018 20:53:31 GMT+0800">
+        <meta property="article:published_time" content="Mon Jul 30 2018 10:56:40 GMT+0800">
+        <meta property="article:modified_time" content="Mon Jul 30 2018 11:31:19 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -254,7 +254,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://minifullc.github.io/2018/03/27/国际版 MIUI/index.html" />
+        <link rel="canonical" href="https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -266,10 +266,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "https://minifullc.github.io/2018/03/27/国际版 MIUI/index.html",
-    "headline": "国际版 MIUI",
-    "datePublished": "Tue Mar 27 2018 18:31:56 GMT+0800",
-    "dateModified": "Wed Apr 25 2018 20:53:31 GMT+0800",
+    "mainEntityOfPage": "https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/index.html",
+    "headline": "Linux环境下创建Windows启动盘",
+    "datePublished": "Mon Jul 30 2018 10:56:40 GMT+0800",
+    "dateModified": "Mon Jul 30 2018 11:31:19 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "沐成尘",
@@ -287,7 +287,7 @@
             "url": "/img/gufeng.jpg"
         }
     },
-    "keywords": ",Android",
+    "keywords": ",Linux",
     "description": "",
 }
 </script>
@@ -353,7 +353,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#准备工作"><span class="post-toc-number">1.</span> <span class="post-toc-text">准备工作</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#开始"><span class="post-toc-number">2.</span> <span class="post-toc-text">开始</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#总结"><span class="post-toc-number">3.</span> <span class="post-toc-text">总结</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#参考："><span class="post-toc-number">4.</span> <span class="post-toc-text">参考：</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#前言"><span class="post-toc-number">1.</span> <span class="post-toc-text">前言</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">安装</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#使用"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">使用</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#一、完全覆盖创建（推荐）"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">一、完全覆盖创建（推荐）</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#二、共存创建（不建议）"><span class="post-toc-number">1.2.2.</span> <span class="post-toc-text">二、共存创建（不建议）</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#三、详细参数"><span class="post-toc-number">1.2.3.</span> <span class="post-toc-text">三、详细参数</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#项目源码"><span class="post-toc-number">2.</span> <span class="post-toc-text">项目源码</span></a></li></ol>
     </ul>
     
 
@@ -373,10 +373,10 @@
     <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://attach.bbs.miui.com/forum/201708/26/140313hzvfe20wfofrxove.png)">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1532931543850&di=8146b850a997f90a8219ddc67d5c13a2&imgtype=0&src=http%3A%2F%2Fimg06.tooopen.com%2Fimages%2F20160820%2Ftooopen_sy_176019494941.jpg)">
     
             <p class="article-headline-p">
-                国际版 MIUI
+                Linux环境下创建Windows启动盘
             </p>
         </div>
 
@@ -395,7 +395,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>沐成尘</strong>
-        <span>3月 27, 2018</span>
+        <span>7月 30, 2018</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -417,7 +417,7 @@
 <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
     <li class="mdl-menu__item">在其它设备中阅读本文章</li>
     
-        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=https://minifullc.github.io/2018/03/27/国际版 MIUI/">
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/">
     
 </ul>
 
@@ -431,7 +431,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/Android/">Android</a>
+        <a class="post_tag-link" href="/tags/Linux/">Linux</a>
     </ul>
     
 
@@ -448,7 +448,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=国际版 MIUI&url=https://minifullc.github.io/2018/03/27/国际版 MIUI/index.html&pic=https://minifullc.github.io/img/gufeng.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Linux环境下创建Windows启动盘&url=https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/index.html&pic=https://minifullc.github.io/img/gufeng.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -457,7 +457,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=国际版 MIUI&url=https://minifullc.github.io/2018/03/27/国际版 MIUI/index.html&via=沐成尘" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Linux环境下创建Windows启动盘&url=https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/index.html&via=沐成尘" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -466,7 +466,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://minifullc.github.io/2018/03/27/国际版 MIUI/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -481,7 +481,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Musuc&#39;s Blog&title=国际版 MIUI&summary=&pics=https://minifullc.github.io/img/gufeng.jpg&url=https://minifullc.github.io/2018/03/27/国际版 MIUI/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Musuc&#39;s Blog&title=Linux环境下创建Windows启动盘&summary=&pics=https://minifullc.github.io/img/gufeng.jpg&url=https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -490,7 +490,7 @@
 
     <!-- Share Telegram -->
     
-        <a class="post_share-link" href="https://telegram.me/share/url?url=https://minifullc.github.io/2018/03/27/国际版 MIUI/index.html&text=国际版 MIUI" target="_blank">
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/index.html&text=Linux环境下创建Windows启动盘" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Telegram
             </li>
@@ -506,71 +506,105 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>将我的红米5Plus系统刷为国际版。</p>
-<p>折腾了1天半，总算找到了自已较为满意的版本。在此将过程记录下来。</p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><blockquote>
-<p>值得注意的是整个过程需要 <strong>Windows</strong> 环境。</p>
-<blockquote>
-<p>更要注意的是：<strong>备份重要数据</strong>。</p>
-</blockquote>
-</blockquote>
-<ol>
-<li><p>申请解锁。<a href="http://www.miui.com/unlock/index.html" target="_blank" rel="noopener">点击这里</a>，申请小米账号解锁权限，登录你的小米账号提交申请。</p>
+        <p>并非使用dd命令，安全快速的制作 Windows USB启动。</p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><ul>
+<li><p>在linux环境下，众所周知的dd命令非常强大，这种底层数据处理的方式，多次将我的U盘搞坏。提醒大家一下，慎用。</p>
 </li>
-<li><p>申请成功后，同页面下载小米解锁工具。</p>
-</li>
-<li><p><a href="https://www.androidfilehost.com/?w=files&amp;flid=50678" target="_blank" rel="noopener">点击这里</a>，下载 <strong>fastboot mode</strong> ——<strong>TWRP Recovery</strong>。</p>
-</li>
-<li><p><a href="https://xiaomi.eu/community/forums/miui-weekly-rom-releases.103/" target="_blank" rel="noopener">点击这里</a> 下载ROM，我使用的是EU版。选择你对应的机型进行下载。有开发版和稳定版可以选择。</p>
-</li>
-</ol>
-<blockquote>
-<p>EU版是国际版的欧洲优化版本。为什么我选择了它，文章的最后我会写上。</p>
-</blockquote>
-<h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><ol>
-<li><p>关机；同时按住 <strong>电源键 + 音量 -</strong> ，进入<code>fastboot</code>模式。</p>
-</li>
-<li><p>将手机连接电脑，打开小米解锁工具，登录账号，一路同意协议后，点击 <strong>开始解锁</strong>。</p>
-</li>
-<li><p><strong>进入</strong> 下载好的 <strong>TWRP Recovery</strong> 文件夹中，打开命令行，依次输入：</p>
-</li>
-</ol>
-<pre><code>fastboot flash recovery twrp.img
-fastboot boot twrp.img
-</code></pre><ol>
-<li><p>成功后手机会自动进入 <strong>TWRP</strong> ，此时会提示输入密码，也可以点击 <strong>Cancel</strong> 跳过。</p>
-</li>
-<li><p>点击 <strong>Setting</strong> 按钮，更改语言为简体中文，方便操作。</p>
-</li>
-<li><p>点击清除，清除数据。</p>
-</li>
-<li><p>点击 <strong>挂载</strong> ，选中 <strong>Micro SD</strong> 。</p>
-</li>
-<li><p>打开 <strong>我的电脑</strong> 进入设备， <strong>复制</strong>  刚刚ROM包。</p>
-</li>
-<li><p>手机点击 <strong>安装</strong> 按钮，选中复制好的 <strong>ROM包</strong> 进行安装。<br><br></p>
-<blockquote>
-<p><strong>如果显示ROM包损坏请回头检查：复制、下载 过程。</strong></p>
-</blockquote>
-</li>
-</ol>
-<ul>
-<li>成功后点击 <strong>重启系统</strong>。</li>
-<li>第一次启动系统时间较长，大概需要20分钟左右。</li>
-</ul>
-<p><br></p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ul>
-<li><p>第一次刷入的是 <strong>国际稳定版</strong> ，很顺利但是版本回滚太严重，相较于 <strong>国内稳定版</strong> 缺少了很多新功能，例如 <strong>全面屏手势操作</strong> ，并且无法自动校正流量信息。</p>
-</li>
-<li><p>之后果断刷入 <strong>国际开发版</strong> ，但是由于不能跳过验证Google账号，也就不能进入系统，尝试多种办法无果后最终选择了 <strong>EU开发版 MIUI</strong> 。</p>
-</li>
-<li><p>相较于国际版，EU开发版能跳过开头的Google验证，少了谷歌全家桶，也能校正流量。</p>
+<li><p>下面介绍另一种方式——<strong><code>WoeUSB</code></strong></p>
 </li>
 </ul>
-<hr>
-<p><br></p>
-<h1 id="参考："><a href="#参考：" class="headerlink" title="参考："></a>参考：</h1><ul>
-<li><a href="https://xiaomi.eu" target="_blank" rel="noopener">https://xiaomi.eu</a></li>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><ul>
+<li>manjaro</li>
+</ul>
+<pre><code>yaourt -S woeusb
+</code></pre><ul>
+<li>Ubuntu</li>
+</ul>
+<pre><code>sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt update 
+sudo apt install woeusb
+</code></pre><ul>
+<li><p>其他发行版自行使用软件包管理器安装。</p>
+</li>
+<li><p>或从github中clone使用。</p>
+</li>
+<li><p><a href="https://github.com/slacka/WoeUSB" target="_blank" rel="noopener">https://github.com/slacka/WoeUSB</a></p>
+</li>
+</ul>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="一、完全覆盖创建（推荐）"><a href="#一、完全覆盖创建（推荐）" class="headerlink" title="一、完全覆盖创建（推荐）"></a>一、完全覆盖创建（推荐）</h3><ul>
+<li><p>使用 <code>-d</code> 命令，完全擦除整个USB存储设备，然后从头开始构建可启动的Windows USB设备。</p>
+</li>
+<li><p>警告：设备上的所有先前数据都将被擦除，请备份重要数据。</p>
+</li>
+<li><p>命令如下：</p>
+</li>
+</ul>
+<pre><code>woeusb --device &lt;源媒体路径&gt; &lt;device&gt;
+
+例子：
+- woeusb --device Windows7_x64.iso / dev / sdX
+- woeusb --device / dev / sr0 / dev / sdX
+
+</code></pre><h3 id="二、共存创建（不建议）"><a href="#二、共存创建（不建议）" class="headerlink" title="二、共存创建（不建议）"></a>二、共存创建（不建议）</h3><ul>
+<li><p>使用 <code>-p</code> 命令，将Windows文件复制到USB存储设备的现有分区并使其可引导。</p>
+</li>
+<li><p>只要不存在文件名冲突，这就允许文件共存。</p>
+</li>
+<li><p>警告：所有具有<code>相同名称</code>的文件都将被覆盖！</p>
+</li>
+<li><p>命令如下</p>
+</li>
+</ul>
+<pre><code>woeusb --partition &lt;源媒体路径&gt; &lt;partition&gt;
+
+例子：
+- woeusb --partition Windows7_x64.iso / dev / sdX1
+- woeusb --partition / dev / sr0 / dev / sdX1
+</code></pre><h3 id="三、详细参数"><a href="#三、详细参数" class="headerlink" title="三、详细参数"></a>三、详细参数</h3><ul>
+<li>详细模式。</li>
+</ul>
+<pre><code>--verbose，-v
+</code></pre><ul>
+<li>显示此帮助消息并退出。</li>
+</ul>
+<pre><code>--help，-h
+</code></pre><ul>
+<li>打印应用程序版本。</li>
+</ul>
+<pre><code>--version，-V
+</code></pre><ul>
+<li>显示有关此应用程序的信息。</li>
+</ul>
+<pre><code>--about, -ab
+</code></pre><ul>
+<li>禁用消息着色。</li>
+</ul>
+<pre><code>--no-color
+</code></pre><ul>
+<li>启用脚本调试。</li>
+</ul>
+<pre><code>--debug
+</code></pre><ul>
+<li>在–device creation方法中为新创建的文件系统指定标签。</li>
+<li>请注意，标签未经过有效性验证，对于文件系统可能是非法的。</li>
+</ul>
+<pre><code>--label，-l &lt;filesystem_label&gt;
+</code></pre><ul>
+<li>解决方法BIOS错误，如果切换了分区的引导标志，则不包括启动菜单中的设备。</li>
+</ul>
+<pre><code>--workaround-bios-boot-flag
+</code></pre><ul>
+<li>开发人员在不运行整个构建的情况下测试某些功能的开发选项。</li>
+</ul>
+<pre><code>--debugging-internal-function-call &lt;function name&gt;（function_argument）...
+</code></pre><ul>
+<li>指定要用作目标分区的文件系统的文件系统。</li>
+<li>目前支持：FAT（默认）/ NTFS。</li>
+</ul>
+<pre><code>--target-filesystem， - ttt -fs &lt;filesystem name&gt;
+</code></pre><hr>
+<h1 id="项目源码"><a href="#项目源码" class="headerlink" title="项目源码"></a>项目源码</h1><ul>
+<li><a href="https://github.com/slacka/WoeUSB" target="_blank" rel="noopener">https://github.com/slacka/WoeUSB</a></li>
 </ul>
 
         
@@ -590,8 +624,8 @@ fastboot boot twrp.img
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'https://minifullc.github.io/2018/03/27/国际版 MIUI/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'https://minifullc.github.io/2018/03/27/国际版 MIUI/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://minifullc.github.io/2018/07/30/Linux环境下创建Windows启动盘/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 <script type="text/ls-javascript" id="disqus-thread-script">
@@ -621,21 +655,13 @@ fastboot boot twrp.img
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2018/04/19/在局域网内快速共享文件/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2018/03/20/Arch Linux 系统颜色配置/" id="post_nav-older" class="next-content">
+        <a href="/2018/07/18/Linux SVN 命令行/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
