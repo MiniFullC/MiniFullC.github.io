@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
+    
+    <lastmod>2018-08-12T13:53:00.429Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
     
     <lastmod>2018-08-10T15:33:13.304Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://minifullc.github.io/2018/03/14/oh-my-zsh-%E9%85%8D%E7%BD%AEzsh-%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
     
     <lastmod>2018-07-22T15:45:17.281Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
-    
-    <lastmod>2018-07-18T08:18:35.781Z</lastmod>
     
   </url>
   
