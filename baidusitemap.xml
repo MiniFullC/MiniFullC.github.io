@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2018-08-13T14:04:12.011Z</lastmod>
+    <data>
+        <display>
+        <title>利用Hexo+Github 搭建博客</title>
+        <pubTime>2018-03-07T12:38:47.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
     <lastmod>2018-08-12T13:53:00.429Z</lastmod>
     <data>
@@ -17,26 +37,6 @@
            
              
               <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2018-08-10T15:33:13.304Z</lastmod>
-    <data>
-        <display>
-        <title>利用Hexo+Github 搭建博客</title>
-        <pubTime>2018-03-07T12:38:47.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
           
         </display>
     </data>
