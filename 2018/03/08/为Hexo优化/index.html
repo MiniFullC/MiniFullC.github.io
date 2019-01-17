@@ -246,7 +246,7 @@
 
     
         <meta property="article:published_time" content="Thu Mar 08 2018 14:30:43 GMT+0800">
-        <meta property="article:modified_time" content="Wed Jan 16 2019 17:36:43 GMT+0800">
+        <meta property="article:modified_time" content="Thu Jan 17 2019 10:36:15 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -269,7 +269,7 @@
     "mainEntityOfPage": "https://minifullc.github.io/2018/03/08/为Hexo优化/index.html",
     "headline": "为Hexo优化",
     "datePublished": "Thu Mar 08 2018 14:30:43 GMT+0800",
-    "dateModified": "Wed Jan 16 2019 17:36:43 GMT+0800",
+    "dateModified": "Thu Jan 17 2019 10:36:15 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "沐成尘",
@@ -563,11 +563,15 @@
 </blockquote>
 <h2 id="将ssh-Key-添加到github上"><a href="#将ssh-Key-添加到github上" class="headerlink" title="将ssh Key 添加到github上"></a>将ssh Key 添加到github上</h2><ol>
 <li>将本地生成的公钥 <code>id_rsa.pub</code>中的内容复制下来。<br>2.打开<a href="https://github.com/settings/ssh" target="_blank" rel="noopener">https://github.com/settings/ssh</a>  并且登录，点击Add ssh Key，将复制的内容粘贴到Key框中，在Title框中可以输入自己方便记忆的名字。</li>
-<li>当网页显示添加成功后，打开命令行输入<pre><code>ssh ‐T git@github.com
-</code></pre></li>
+<li>当网页显示添加成功后，打开命令行输入</li>
+</ol>
+<pre><code>ssh ‐T git@github.com
+</code></pre><ol>
 <li>命令行出现以下回执：<code>Are you sure you want to continue connecting (yes/no)?</code></li>
-<li>输入yes后如果看到:<pre><code>Hi username! You&#39;ve successfully authenticated, but GitHub does not provide shell access.
-</code></pre></li>
+<li>输入yes后如果看到:</li>
+</ol>
+<pre><code>Hi username! You&#39;ve successfully authenticated, but GitHub does not provide shell access.
+</code></pre><ol>
 <li>成功显示如上文字就说明成功了，如果出现错误提示请仔细检查自己的操作。</li>
 </ol>
 <h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><ul>
