@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://minifullc.github.io/2018/03/14/oh-my-zsh-%E9%85%8D%E7%BD%AEzsh-%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2019-03-04T10:01:17.069Z</lastmod>
+    <data>
+        <display>
+        <title>oh-my-zsh + zsh 强大的终端环境</title>
+        <pubTime>2018-03-14T13:08:36.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
     <lastmod>2019-03-02T12:46:24.755Z</lastmod>
     <data>
@@ -132,26 +152,6 @@
         <pubTime>2018-03-12T07:03:44.000Z</pubTime>
         
         <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/14/oh-my-zsh-%E9%85%8D%E7%BD%AEzsh-%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2018-07-22T15:45:17.281Z</lastmod>
-    <data>
-        <display>
-        <title>oh-my-zsh + zsh 强大的终端环境</title>
-        <pubTime>2018-03-14T13:08:36.000Z</pubTime>
-        
-        <tag>Linux</tag>
          
          
            
