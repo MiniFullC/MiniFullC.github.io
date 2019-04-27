@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://minifullc.github.io/2018/07/30/Linux%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%88%9B%E5%BB%BAWindows%E5%90%AF%E5%8A%A8%E7%9B%98/</loc>
+    <lastmod>2019-04-27T05:22:23.091Z</lastmod>
+    <data>
+        <display>
+        <title>Linux环境下创建Windows启动盘</title>
+        <pubTime>2018-07-30T02:56:40.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://minifullc.github.io/2018/12/25/DB2-%E9%87%8D%E5%AE%9A%E5%90%91%E6%81%A2%E5%A4%8D%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2019-04-24T09:56:35.042Z</lastmod>
     <data>
@@ -137,26 +157,6 @@
            
              
               <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/07/30/Linux%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%88%9B%E5%BB%BAWindows%E5%90%AF%E5%8A%A8%E7%9B%98/</loc>
-    <lastmod>2018-07-31T09:28:48.216Z</lastmod>
-    <data>
-        <display>
-        <title>Linux环境下创建Windows启动盘</title>
-        <pubTime>2018-07-30T02:56:40.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
           
         </display>
     </data>
