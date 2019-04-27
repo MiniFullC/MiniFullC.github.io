@@ -4,6 +4,66 @@
 
     
   <url>
+    <loc>https://minifullc.github.io/2018/03/27/%E5%9B%BD%E9%99%85%E7%89%88%20MIUI/</loc>
+    <lastmod>2019-04-27T05:35:21.018Z</lastmod>
+    <data>
+        <display>
+        <title>国际版 MIUI</title>
+        <pubTime>2018-03-27T10:31:56.000Z</pubTime>
+        
+        <tag>Android</tag>
+         
+         
+           
+             
+              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://minifullc.github.io/2018/03/12/%E6%8B%A5%E6%8A%B1Disqus/</loc>
+    <lastmod>2019-04-27T05:34:52.081Z</lastmod>
+    <data>
+        <display>
+        <title>拥抱Disqus</title>
+        <pubTime>2018-03-12T07:03:44.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://minifullc.github.io/2018/03/20/Arch%20Linux%20%E7%B3%BB%E7%BB%9F%E9%A2%9C%E8%89%B2%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2019-04-27T05:28:40.829Z</lastmod>
+    <data>
+        <display>
+        <title>Manjaro Linux 系统主题色配置</title>
+        <pubTime>2018-03-20T11:47:05.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="优化翩" url="https://minifullc.github.io/categories/%E4%BC%98%E5%8C%96%E7%BF%A9/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://minifullc.github.io/2018/07/30/Linux%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%88%9B%E5%BB%BAWindows%E5%90%AF%E5%8A%A8%E7%9B%98/</loc>
     <lastmod>2019-04-27T05:22:23.091Z</lastmod>
     <data>
@@ -124,52 +184,12 @@
 
     
   <url>
-    <loc>https://minifullc.github.io/2018/03/20/Arch%20Linux%20%E7%B3%BB%E7%BB%9F%E9%A2%9C%E8%89%B2%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2019-02-25T10:05:26.040Z</lastmod>
-    <data>
-        <display>
-        <title>Manjaro Linux 系统主题色配置</title>
-        <pubTime>2018-03-20T11:47:05.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="优化翩" url="https://minifullc.github.io/categories/%E4%BC%98%E5%8C%96%E7%BF%A9/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://minifullc.github.io/2018/03/08/%E4%B8%BAHexo%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2019-02-02T01:39:22.832Z</lastmod>
     <data>
         <display>
         <title>为Hexo优化</title>
         <pubTime>2018-03-08T06:30:43.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/12/%E6%8B%A5%E6%8A%B1Disqus/</loc>
-    <lastmod>2018-07-30T07:47:53.457Z</lastmod>
-    <data>
-        <display>
-        <title>拥抱Disqus</title>
-        <pubTime>2018-03-12T07:03:44.000Z</pubTime>
         
         <tag>Hexo</tag>
          
@@ -197,26 +217,6 @@
            
              
               <breadCrumb title="优化翩" url="https://minifullc.github.io/categories/%E4%BC%98%E5%8C%96%E7%BF%A9/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/27/%E5%9B%BD%E9%99%85%E7%89%88%20MIUI/</loc>
-    <lastmod>2018-04-25T12:53:31.000Z</lastmod>
-    <data>
-        <display>
-        <title>国际版 MIUI</title>
-        <pubTime>2018-03-27T10:31:56.000Z</pubTime>
-        
-        <tag>Android</tag>
-         
-         
-           
-             
-              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
           
         </display>
     </data>
