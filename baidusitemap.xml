@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://minifullc.github.io/2018/03/12/%E6%8B%A5%E6%8A%B1Disqus/</loc>
-    <lastmod>2019-09-27T08:07:37.602Z</lastmod>
+    <lastmod>2019-09-28T12:41:33.170Z</lastmod>
     <data>
         <display>
         <title>拥抱Disqus</title>
@@ -17,6 +17,26 @@
            
              
               <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://minifullc.github.io/2018/03/20/Arch%20Linux%20%E7%B3%BB%E7%BB%9F%E9%A2%9C%E8%89%B2%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2019-09-28T12:41:29.886Z</lastmod>
+    <data>
+        <display>
+        <title>Manjaro Linux 系统主题色配置</title>
+        <pubTime>2018-03-20T11:47:05.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="优化翩" url="https://minifullc.github.io/categories/%E4%BC%98%E5%8C%96%E7%BF%A9/"/>
           
         </display>
     </data>
@@ -177,26 +197,6 @@
            
              
               <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/20/Arch%20Linux%20%E7%B3%BB%E7%BB%9F%E9%A2%9C%E8%89%B2%E9%85%8D%E7%BD%AE/</loc>
-    <lastmod>2019-09-04T00:56:57.859Z</lastmod>
-    <data>
-        <display>
-        <title>Manjaro Linux 系统主题色配置</title>
-        <pubTime>2018-03-20T11:47:05.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="优化翩" url="https://minifullc.github.io/categories/%E4%BC%98%E5%8C%96%E7%BF%A9/"/>
           
         </display>
     </data>
