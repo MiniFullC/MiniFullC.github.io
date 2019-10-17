@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://minifullc.github.io/2018/03/19/%E4%BF%AE%E6%94%B9-Gnome-3-Night-light-%E5%BC%BA%E5%BA%A6%E5%80%BC/</loc>
-    <lastmod>2019-10-16T02:35:06.359Z</lastmod>
+    <lastmod>2019-10-17T03:56:24.271Z</lastmod>
     <data>
         <display>
         <title>修改 Gnome 3 Night-light 强度值</title>
@@ -17,6 +17,46 @@
            
              
               <breadCrumb title="优化翩" url="https://minifullc.github.io/categories/%E4%BC%98%E5%8C%96%E7%BF%A9/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
+    <lastmod>2019-10-17T03:56:21.055Z</lastmod>
+    <data>
+        <display>
+        <title>Linux SVN 命令行</title>
+        <pubTime>2018-07-18T07:27:19.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://minifullc.github.io/2018/03/14/oh-my-zsh-%E9%85%8D%E7%BD%AEzsh-%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2019-10-17T03:56:17.357Z</lastmod>
+    <data>
+        <display>
+        <title>oh-my-zsh + zsh 强大的终端环境</title>
+        <pubTime>2018-03-14T13:08:36.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
           
         </display>
     </data>
@@ -57,46 +97,6 @@
            
              
               <breadCrumb title="优化翩" url="https://minifullc.github.io/categories/%E4%BC%98%E5%8C%96%E7%BF%A9/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/14/oh-my-zsh-%E9%85%8D%E7%BD%AEzsh-%E7%BB%88%E7%AB%AF%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2019-09-27T08:07:29.966Z</lastmod>
-    <data>
-        <display>
-        <title>oh-my-zsh + zsh 强大的终端环境</title>
-        <pubTime>2018-03-14T13:08:36.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
-    <lastmod>2019-09-25T02:38:52.603Z</lastmod>
-    <data>
-        <display>
-        <title>Linux SVN 命令行</title>
-        <pubTime>2018-07-18T07:27:19.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
           
         </display>
     </data>
