@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2019-12-17T23:56:38.749Z</lastmod>
+    <data>
+        <display>
+        <title>利用Hexo+Github 搭建博客</title>
+        <pubTime>2018-03-07T12:38:47.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://minifullc.github.io/2018/04/19/%E5%9C%A8%E5%B1%80%E5%9F%9F%E7%BD%91%E5%86%85%E5%BF%AB%E9%80%9F%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6/</loc>
     <lastmod>2019-12-17T02:55:54.953Z</lastmod>
     <data>
@@ -190,26 +210,6 @@
         <display>
         <title>为Hexo优化</title>
         <pubTime>2018-03-08T06:30:43.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2019-02-27T12:49:15.247Z</lastmod>
-    <data>
-        <display>
-        <title>利用Hexo+Github 搭建博客</title>
-        <pubTime>2018-03-07T12:38:47.000Z</pubTime>
         
         <tag>Hexo</tag>
          
