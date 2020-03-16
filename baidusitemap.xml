@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
+    <lastmod>2020-03-16T00:13:21.146Z</lastmod>
+    <data>
+        <display>
+        <title>Linux SVN 命令行</title>
+        <pubTime>2018-07-18T07:27:19.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2020-03-15T10:18:15.239Z</lastmod>
     <data>
@@ -30,26 +50,6 @@
         <display>
         <title>Linux环境下创建Windows启动盘</title>
         <pubTime>2018-07-30T02:56:40.000Z</pubTime>
-        
-        <tag>Linux</tag>
-         
-         
-           
-             
-              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/07/18/Linux%20SVN%20%E5%91%BD%E4%BB%A4%E8%A1%8C/</loc>
-    <lastmod>2020-03-08T07:54:47.519Z</lastmod>
-    <data>
-        <display>
-        <title>Linux SVN 命令行</title>
-        <pubTime>2018-07-18T07:27:19.000Z</pubTime>
         
         <tag>Linux</tag>
          
