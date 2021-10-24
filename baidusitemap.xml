@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://minifullc.github.io/2018/03/12/%E6%8B%A5%E6%8A%B1Disqus/</loc>
+    <lastmod>2021-10-24T12:38:31.206Z</lastmod>
+    <data>
+        <display>
+        <title>拥抱Disqus</title>
+        <pubTime>2018-03-12T07:03:44.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://minifullc.github.io/2018/03/07/Hexo+Github%20%E7%9A%84%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2021-10-22T16:38:26.028Z</lastmod>
     <data>
@@ -57,26 +77,6 @@
            
              
               <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2018/03/12/%E6%8B%A5%E6%8A%B1Disqus/</loc>
-    <lastmod>2021-09-01T05:53:53.964Z</lastmod>
-    <data>
-        <display>
-        <title>拥抱Disqus</title>
-        <pubTime>2018-03-12T07:03:44.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="技术栈" url="https://minifullc.github.io/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
           
         </display>
     </data>
