@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title>安装OpenJDK</title>
+      <link href="/2022/10/17/%E5%AE%89%E8%A3%85OpenJDK/"/>
+      <url>/2022/10/17/%E5%AE%89%E8%A3%85OpenJDK/</url>
+      <content type="html"><![CDATA[<p>卸载之前的 jdk<br>rpm -qa | grep jdk | xargs rpm -evh –nodeps</p><p>rpm -qa | grep java | xargs rpm -evh –nodeps</p><blockquote><p>-e 卸载</p></blockquote><p>-vh 展示详细信息和进度</p><p>–nodeps 在安装或升级包之前不做依赖检查</p><p>rpm -ivh jdk-8u144-linux-x64.rpm</p><p>-i 安装</p><p>-ivh  在安装的时候展示正在安装的文件信息以及安装进度</p>]]></content>
+      
+      <categories>
+          
+          <category> 记录集 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>DB2 重定向恢复数据库</title>
       <link href="/2018/12/25/DB2-%E9%87%8D%E5%AE%9A%E5%90%91%E6%81%A2%E5%A4%8D%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
       <url>/2018/12/25/DB2-%E9%87%8D%E5%AE%9A%E5%90%91%E6%81%A2%E5%A4%8D%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
