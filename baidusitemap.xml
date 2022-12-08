@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>https://minifullc.github.io/2022/12/06/Nginx/</loc>
+    <lastmod>2022-12-08T01:32:18.702Z</lastmod>
+    <data>
+        <display>
+        <title>Nginx</title>
+        <pubTime>2022-12-06T10:00:00.000Z</pubTime>
+        
+        <tag>Nginx</tag>
+         
+         
+           
+             
+              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://minifullc.github.io/2022/12/06/MySQL/</loc>
+    <lastmod>2022-12-06T09:11:17.620Z</lastmod>
+    <data>
+        <display>
+        <title>MySQL</title>
+        <pubTime>2022-12-06T10:00:00.000Z</pubTime>
+        
+        <tag>MySQL</tag>
+         
+         
+           
+             
+              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://minifullc.github.io/2018/07/30/Linux%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%88%9B%E5%BB%BAWindows%E5%90%AF%E5%8A%A8%E7%9B%98/</loc>
     <lastmod>2022-12-06T09:06:22.951Z</lastmod>
     <data>
@@ -92,26 +132,6 @@
         <pubTime>2022-10-17T10:00:00.000Z</pubTime>
         
         <tag>Android</tag>
-         
-         
-           
-             
-              <breadCrumb title="记录集" url="https://minifullc.github.io/categories/%E8%AE%B0%E5%BD%95%E9%9B%86/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://minifullc.github.io/2022/12/06/MySQL/</loc>
-    <lastmod>2022-12-06T09:06:16.763Z</lastmod>
-    <data>
-        <display>
-        <title>MySQL</title>
-        <pubTime>2022-12-06T10:00:00.000Z</pubTime>
-        
-        <tag>MySQL</tag>
          
          
            
