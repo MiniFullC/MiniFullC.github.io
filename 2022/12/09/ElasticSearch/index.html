@@ -45,7 +45,7 @@
     
     <title>
         
-            标签: DB2 | 
+            ElasticSearch | 
         
         Musuc&#39;s Blog
     </title>
@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content=",ElasticSearch">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -83,6 +83,9 @@
         <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/style.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
+            
+                <style id="prettify_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_css","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/prettify.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+                <style id="prettify_theme"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_theme","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/prettify/atelier-heath-light.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
             
         
 
@@ -219,7 +222,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Musuc&#39;s Blog">
-    <meta name="msapplication-starturl" content="https://minifullc.github.io/tags/DB2/">
+    <meta name="msapplication-starturl" content="https://minifullc.github.io/2022/12/09/ElasticSearch/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Musuc&#39;s Blog">
@@ -234,13 +237,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://minifullc.github.io/tags/DB2/">
+    <meta property="og:url" content="https://minifullc.github.io/2022/12/09/ElasticSearch/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: DB2 | Musuc&#39;s Blog">
+    <meta property="og:title" content="ElasticSearch | Musuc&#39;s Blog">
     <meta property="og:image" content="/img/icon/icons8-nvidia-geforce.jpg">
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="ElasticSearch"> 
 
+    
+        <meta property="article:published_time" content="Fri Dec 09 2022 18:00:00 GMT+0800">
+        <meta property="article:modified_time" content="Thu Dec 08 2022 14:17:55 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -248,13 +254,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://minifullc.github.io/tags/DB2/index.html" />
+        <link rel="canonical" href="https://minifullc.github.io/2022/12/09/ElasticSearch/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://minifullc.github.io/2022/12/09/ElasticSearch/index.html",
+    "headline": "ElasticSearch",
+    "datePublished": "Fri Dec 09 2022 18:00:00 GMT+0800",
+    "dateModified": "Thu Dec 08 2022 14:17:55 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "沐成尘",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/gufeng.jpg"
+        },
+        "description": "求知若渴，虚心若愚"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Musuc&#39;s Blog",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/icon/icons8-nvidia-geforce.jpg"
+        }
+    },
+    "keywords": ",ElasticSearch",
+    "description": "",
+}
+</script>
 
 
     
@@ -288,97 +324,499 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#安装"><span class="post-toc-number">1.</span> <span class="post-toc-text">安装</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#下载"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">下载</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#创建用户组和用户"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">创建用户组和用户</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#创建目录"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">创建目录</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#修改配置"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">修改配置</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#配置证书"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">配置证书</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#拷贝安装目录"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">拷贝安装目录</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#修改相关配置文件"><span class="post-toc-number">1.7.</span> <span class="post-toc-text">修改相关配置文件</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#启动"><span class="post-toc-number">1.8.</span> <span class="post-toc-text">启动</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#设置密码"><span class="post-toc-number">1.9.</span> <span class="post-toc-text">设置密码</span></a></li></ol></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://s3.ax1x.com/2021/02/25/yj4J6U.jpg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://s3.ax1x.com/2021/02/25/yj4J6U.jpg)">
+    
+            <p class="article-headline-p">
+                ElasticSearch
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/gufeng.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>沐成尘</strong>
+        <span>12月 09, 2022</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=https://minifullc.github.io/2022/12/09/ElasticSearch/">
+    
+</ul>
+
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/12/25/DB2-重定向恢复数据库/">DB2 重定向恢复数据库</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/ElasticSearch/">ElasticSearch</a>
+    </ul>
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            不同Linux 主机之间脱机备份恢复 DB2 数据库.
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
 
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/12/25/DB2-重定向恢复数据库/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/gufeng.jpg" width="44px" height="44px" alt="沐成尘's avatar">
-            </div>
-            <div>
-                <strong>沐成尘</strong>
-                <span>12月 25, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/技术栈/">技术栈</a>
-              </span>
-            
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=ElasticSearch&url=https://minifullc.github.io/2022/12/09/ElasticSearch/index.html&pic=https://minifullc.github.io/img/icon/icons8-nvidia-geforce.jpg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=ElasticSearch&url=https://minifullc.github.io/2022/12/09/ElasticSearch/index.html&via=沐成尘" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://minifullc.github.io/2022/12/09/ElasticSearch/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Musuc&#39;s Blog&title=ElasticSearch&summary=&pics=https://minifullc.github.io/img/icon/icons8-nvidia-geforce.jpg&url=https://minifullc.github.io/2022/12/09/ElasticSearch/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://minifullc.github.io/2022/12/09/ElasticSearch/index.html&text=ElasticSearch" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
 </div>
 
-            
-            
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>ElasticSearch 集群安装</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><ul>
+<li><p>先决条件：</p>
+<ul>
+<li><strong>安装 JDK</strong></li>
+</ul>
+</li>
+<li><p>历史版本下载： </p>
+<ul>
+<li><a href="https://www.elastic.co/cn/downloads/past-releases#elasticsearch" target="_blank" rel="noopener">https://www.elastic.co/cn/downloads/past-releases#elasticsearch</a></li>
+</ul>
+</li>
+<li><p>7.6.2版本：</p>
+<ul>
+<li><a href="https://www.elastic.co/cn/downloads/past-releases/elasticsearch-7-6-2" target="_blank" rel="noopener">https://www.elastic.co/cn/downloads/past-releases/elasticsearch-7-6-2</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="创建用户组和用户"><a href="#创建用户组和用户" class="headerlink" title="创建用户组和用户"></a>创建用户组和用户</h3><ul>
+<li>用户名根据实际情况定，这里就用 elastic 了</li>
+</ul>
+<pre><code class="shell"># 创建用户组
+groupadd elastic
+# 创建用户
+useradd -m -d /home/elastic -g elastic elastic
+# 修改密码
+passwd elastic
+</code></pre>
+<h3 id="创建目录"><a href="#创建目录" class="headerlink" title="创建目录"></a>创建目录</h3><pre><code class="bash"># 创建ElasticSearch数据目录和日志目录
+mkdir -p /opt/es/data
+mkdir -p /opt/es/logs
+</code></pre>
+<ul>
+<li>解压至当前目录</li>
+</ul>
+<pre><code class="undefined">tar -zxvf elasticsearch-7.13.2-linux-x86_64.tar.gz -C /opt/es/
+</code></pre>
+<ul>
+<li>赋予所有人都可以修改/读取的权限</li>
+</ul>
+<pre><code class="shell">chmod -R 777 /opt/es/*
+</code></pre>
+<h3 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h3><pre><code class="bash">cd /opt/es/elasticsearch-7.13.2/config/
+vim elasticsearch.yml
+</code></pre>
+<ul>
+<li>修改ip等信息</li>
+</ul>
+<pre><code class="bash"># 集群配置
+cluster.name: ES #修改集群名称，自定义即可
+node.name: node01 #修改当前ES节点名称
+node.master: true #作为master节点
+node.data: true #作为node节点
+path.data: /opt/es/data #修改数据保存目录
+path.logs: /opt/es/logs #修改日志保存目录
+network.host: 192.xxx.xxx.xxx #修改ES网络IP
+discovery.seed_hosts: [&quot;ip&quot;, &quot;ip&quot;, &quot;ip&quot;] #集群通信
+cluster.initial_master_nodes: [&quot;node01&quot;, &quot;node02&quot;,&quot;node03&quot;] #添加集群节点名称
+
+# 密码配置
+xpack.security.enabled: true
+xpack.license.self_generated.type: basic
+xpack.security.transport.ssl.enabled: true
+xpack.security.transport.ssl.verification_mode: certificate
+xpack.security.transport.ssl.keystore.path: elastic-certificates.p12 #证书位置
+xpack.security.transport.ssl.truststore.path: elastic-certificates.p12 #证书位置
+</code></pre>
+<h3 id="配置证书"><a href="#配置证书" class="headerlink" title="配置证书"></a>配置证书</h3><pre><code class="bash">cd /opt/es/elasticsearch-7.13.2
+</code></pre>
+<ul>
+<li>在 /opt/es/elasticsearch-7.13.2目录下生成 elastic-stack-ca.p12 文件</li>
+</ul>
+<pre><code class="bash">./bin/elasticsearch-certutil ca
+
+This tool assists you in the generation of X.509 certificates and certificate
+signing requests for use with SSL/TLS in the Elastic stack.
+
+The &#39;ca&#39; mode generates a new &#39;certificate authority&#39;
+This will create a new X.509 certificate and private key that can be used
+to sign certificate when running in &#39;cert&#39; mode.
+
+Use the &#39;ca-dn&#39; option if you wish to configure the &#39;distinguished name&#39;
+of the certificate authority
+
+By default the &#39;ca&#39; mode produces a single PKCS#12 output file which holds:
+    * The CA certificate
+    * The CA&#39;s private key
+
+If you elect to generate PEM format certificates (the -pem option), then the output will
+be a zip file containing individual files for the CA certificate and private key
+
+Please enter the desired output file [elastic-stack-ca.p12]:   #直接回车
+Enter password for elastic-stack-ca.p12 :  #直接回车
+</code></pre>
+<ul>
+<li>在 /opt/es/elasticsearch-7.13.2目录下生成elastic-certificates.p12文件</li>
+</ul>
+<pre><code class="bash">./bin/elasticsearch-certutil cert --ca elastic-stack-ca.p12 
+
+This tool assists you in the generation of X.509 certificates and certificate
+signing requests for use with SSL/TLS in the Elastic stack.
+
+The &#39;cert&#39; mode generates X.509 certificate and private keys.
+    * By default, this generates a single certificate and key for use
+       on a single instance.
+    * The &#39;-multiple&#39; option will prompt you to enter details for multiple
+       instances and will generate a certificate and key for each one
+    * The &#39;-in&#39; option allows for the certificate generation to be automated by describing
+       the details of each instance in a YAML file
+
+    * An instance is any piece of the Elastic Stack that requires an SSL certificate.
+      Depending on your configuration, Elasticsearch, Logstash, Kibana, and Beats
+      may all require a certificate and private key.
+    * The minimum required value for each instance is a name. This can simply be the
+      hostname, which will be used as the Common Name of the certificate. A full
+      distinguished name may also be used.
+    * A filename value may be required for each instance. This is necessary when the
+      name would result in an invalid file or directory name. The name provided here
+      is used as the directory name (within the zip) and the prefix for the key and
+      certificate files. The filename is required if you are prompted and the name
+      is not displayed in the prompt.
+    * IP addresses and DNS names are optional. Multiple values can be specified as a
+      comma separated string. If no IP addresses or DNS names are provided, you may
+      disable hostname verification in your SSL configuration.
+
+    * All certificates generated by this tool will be signed by a certificate authority (CA)
+      unless the --self-signed command line option is specified.
+      The tool can automatically generate a new CA for you, or you can provide your own with
+      the --ca or --ca-cert command line options.
+
+By default the &#39;cert&#39; mode produces a single PKCS#12 output file which holds:
+    * The instance certificate
+    * The private key for the instance certificate
+    * The CA certificate
+
+If you specify any of the following options:
+    * -pem (PEM formatted output)
+    * -keep-ca-key (retain generated CA key)
+    * -multiple (generate multiple certificates)
+    * -in (generate certificates from an input file)
+then the output will be be a zip file containing individual certificate/key files
+
+Enter password for CA (elastic-stack-ca.p12) :  #直接回车
+Please enter the desired output file [elastic-certificates.p12]:  #直接回车
+Enter password for elastic-certificates.p12 :  #直接回车
+
+Certificates written to /opt/es/elasticsearch-7.13.2/elastic-certificates.p12
+
+This file should be properly secured as it contains the private key for 
+your instance.
+
+This file is a self contained file and can be copied and used &#39;as is&#39;
+For each Elastic product that you wish to configure, you should copy
+this &#39;.p12&#39; file to the relevant configuration directory
+and then follow the SSL configuration instructions in the product guide.
+
+For client applications, you may only need to copy the CA certificate and
+configure the client to trust this certificate.
+</code></pre>
+<ul>
+<li>移动 elastic-stack-ca.p12  elastic-certificates.p12 到config目录下</li>
+</ul>
+<pre><code class="bash">mv elastic-stack-ca.p12 elastic-certificates.p12 config/
+</code></pre>
+<ul>
+<li>如果之前节点证书设置了密码，将密码添加到 keystore</li>
+</ul>
+<pre><code class="shell">./bin/elasticsearch-keystore add xpack.security.transport.ssl.keystore.secure_password
+./bin/elasticsearch-keystore add xpack.security.transport.ssl.truststore.secure_password
+</code></pre>
+<h3 id="拷贝安装目录"><a href="#拷贝安装目录" class="headerlink" title="拷贝安装目录"></a>拷贝安装目录</h3><ul>
+<li>分发ElasticSearch目录到集群所有服务器，同时修改每个文件的node.name和network.host</li>
+</ul>
+<h3 id="修改相关配置文件"><a href="#修改相关配置文件" class="headerlink" title="修改相关配置文件"></a>修改相关配置文件</h3><blockquote>
+<p>问题：max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]</p>
+<p>原因：elasticsearch用户拥有的内存权限太小，至少需要262144</p>
+</blockquote>
+<pre><code class="shell">vim /etc/security/limits.conf
+
+
+# 在最后添加
+
+* soft nofile 65536
+* hard nofile 131072
+* soft nproc 4096
+* hard nproc 4096
+</code></pre>
+<ul>
+<li>切换到root用户，在/etc/sysctl.conf文件最后添加一行</li>
+</ul>
+<pre><code class="shell">echo &quot;vm.max_map_count=655360&quot; &gt;&gt; /etc/sysctl.conf
+</code></pre>
+<ul>
+<li>添加完毕之后，执行命令，使配置生效：</li>
+</ul>
+<pre><code class="shell">sysctl -p
+</code></pre>
+<h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><ul>
+<li>切换用户</li>
+</ul>
+<pre><code class="shell">su elastic
+</code></pre>
+<ul>
+<li>启动</li>
+</ul>
+<pre><code class="shell">./bin/elasticsearch -d
+</code></pre>
+<h3 id="设置密码"><a href="#设置密码" class="headerlink" title="设置密码"></a>设置密码</h3><ul>
+<li>这一步需要将集群中的所有机器启动。</li>
+<li>访问ip 验证集群的通讯是否正常。</li>
+</ul>
+<pre><code class="shel">http://ip:9200/_cluster/stats?pretty
+</code></pre>
+<ul>
+<li>集群构建成功后：</li>
+</ul>
+<pre><code class="shell"># 手动设置密码
+./bin/elasticsearch-setup-passwords interactive
+
+Initiating the setup of passwords for reserved users elastic,apm_system,kibana,kibana_system,logstash_system,beats_system,remote_monitoring_user.
+You will be prompted to enter passwords as the process progresses.
+Please confirm that you would like to continue [y/N]y
+# 输入各用户密码即可
+Enter password for [elastic]: 
+Reenter password for [elastic]: 
+Enter password for [apm_system]: 
+Reenter password for [apm_system]: 
+Enter password for [kibana_system]: 
+Reenter password for [kibana_system]: 
+Enter password for [logstash_system]: 
+Reenter password for [logstash_system]: 
+Enter password for [beats_system]: 
+Reenter password for [beats_system]: 
+Enter password for [remote_monitoring_user]: 
+Reenter password for [remote_monitoring_user]: 
+Changed password for user [apm_system]
+Changed password for user [kibana_system]
+Changed password for user [kibana]
+Changed password for user [logstash_system]
+Changed password for user [beats_system]
+Changed password for user [remote_monitoring_user]
+Changed password for user [elastic]
+</code></pre>
+
         
     
 
     
+</div>
 
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
 
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
+                
 
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://minifullc.github.io/2022/12/09/ElasticSearch/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://minifullc.github.io/2022/12/09/ElasticSearch/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//Musuc.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
 </script>
 
-    
 </div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2022/12/07/Nginx/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -584,6 +1022,14 @@ It will not impact the appearance and can give developers a lot of support :)
                     
 
                     
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
 
                     <!--Footer-->
 <footer class="mdl-mini-footer" id="bottom">
@@ -733,6 +1179,10 @@ It will not impact the appearance and can give developers a lot of support :)
 <!-- Import prettify js  -->
 
     
+        
+            <script>lsloader.load("prettify_js","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/js/prettify.min.js", true)</script>
+        
+    
 
 
 
@@ -745,6 +1195,11 @@ It will not impact the appearance and can give developers a lot of support :)
     });
 
     
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
         
     
     

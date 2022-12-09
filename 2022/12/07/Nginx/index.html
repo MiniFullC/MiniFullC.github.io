@@ -45,7 +45,7 @@
     
     <title>
         
-            标签: DB2 | 
+            Nginx | 
         
         Musuc&#39;s Blog
     </title>
@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content=",Nginx">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -83,6 +83,9 @@
         <style id="style_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("style_css","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/style.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
 
         
+            
+                <style id="prettify_css"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_css","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/prettify.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
+                <style id="prettify_theme"></style><script>if(typeof window.lsLoadCSSMaxNums === "undefined")window.lsLoadCSSMaxNums = 0;window.lsLoadCSSMaxNums++;lsloader.load("prettify_theme","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/css/prettify/atelier-heath-light.min.css",function(){if(typeof window.lsLoadCSSNums === "undefined")window.lsLoadCSSNums = 0;window.lsLoadCSSNums++;if(window.lsLoadCSSNums == window.lsLoadCSSMaxNums)document.documentElement.style.display="";}, false)</script>
             
         
 
@@ -219,7 +222,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="Musuc&#39;s Blog">
-    <meta name="msapplication-starturl" content="https://minifullc.github.io/tags/DB2/">
+    <meta name="msapplication-starturl" content="https://minifullc.github.io/2022/12/07/Nginx/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="Musuc&#39;s Blog">
@@ -234,13 +237,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://minifullc.github.io/tags/DB2/">
+    <meta property="og:url" content="https://minifullc.github.io/2022/12/07/Nginx/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: DB2 | Musuc&#39;s Blog">
+    <meta property="og:title" content="Nginx | Musuc&#39;s Blog">
     <meta property="og:image" content="/img/icon/icons8-nvidia-geforce.jpg">
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="Nginx"> 
 
+    
+        <meta property="article:published_time" content="Wed Dec 07 2022 18:00:00 GMT+0800">
+        <meta property="article:modified_time" content="Thu Dec 08 2022 10:44:45 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -248,13 +254,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://minifullc.github.io/tags/DB2/index.html" />
+        <link rel="canonical" href="https://minifullc.github.io/2022/12/07/Nginx/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://minifullc.github.io/2022/12/07/Nginx/index.html",
+    "headline": "Nginx",
+    "datePublished": "Wed Dec 07 2022 18:00:00 GMT+0800",
+    "dateModified": "Thu Dec 08 2022 10:44:45 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "沐成尘",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/gufeng.jpg"
+        },
+        "description": "求知若渴，虚心若愚"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Musuc&#39;s Blog",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/icon/icons8-nvidia-geforce.jpg"
+        }
+    },
+    "keywords": ",Nginx",
+    "description": "",
+}
+</script>
 
 
     
@@ -288,97 +324,377 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#https"><span class="post-toc-number">1.</span> <span class="post-toc-text">https</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#依赖"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">依赖</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#生成密钥"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">生成密钥</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#nginx-配置"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">nginx 配置</span></a></li></ol></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         <!-- Custom Thumbnail -->
-        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50 lazy" data-original="https://s3.ax1x.com/2021/02/25/yj4J6U.jpg">
+        <div class="post_thumbnail-custom mdl-card__media mdl-color-text--grey-50" style="background-image:url(https://s3.ax1x.com/2021/02/25/yj4J6U.jpg)">
+    
+            <p class="article-headline-p">
+                Nginx
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/gufeng.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>沐成尘</strong>
+        <span>12月 07, 2022</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+        <button id="article-functions-qrcode-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">devices other</i>
+    <span class="visuallyhidden">devices other</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-qrcode-button">
+    <li class="mdl-menu__item">在其它设备中阅读本文章</li>
+    
+        <img src="https://pan.baidu.com/share/qrcode?w=246&h=246&url=https://minifullc.github.io/2022/12/07/Nginx/">
+    
+</ul>
+
     
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/12/25/DB2-重定向恢复数据库/">DB2 重定向恢复数据库</a></p>
-    </div>
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/Nginx/">Nginx</a>
+    </ul>
+    
 
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            不同Linux 主机之间脱机备份恢复 DB2 数据库.
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
 
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/12/25/DB2-重定向恢复数据库/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/gufeng.jpg" width="44px" height="44px" alt="沐成尘's avatar">
-            </div>
-            <div>
-                <strong>沐成尘</strong>
-                <span>12月 25, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/技术栈/">技术栈</a>
-              </span>
-            
+    
 
-            
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Nginx&url=https://minifullc.github.io/2022/12/07/Nginx/index.html&pic=https://minifullc.github.io/img/icon/icons8-nvidia-geforce.jpg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
 
-            
+    <!-- Share Twitter -->
+    
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Nginx&url=https://minifullc.github.io/2022/12/07/Nginx/index.html&via=沐成尘" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Twitter
+            </li>
+        </a>
+    
 
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://minifullc.github.io/2022/12/07/Nginx/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=Musuc&#39;s Blog&title=Nginx&summary=&pics=https://minifullc.github.io/img/icon/icons8-nvidia-geforce.jpg&url=https://minifullc.github.io/2022/12/07/Nginx/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+        <a class="post_share-link" href="https://telegram.me/share/url?url=https://minifullc.github.io/2022/12/07/Nginx/index.html&text=Nginx" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Telegram
+            </li>
+        </a>
+    
+</ul>
+
+    
 </div>
 
-            
-            
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>nginx https 相关配置</p>
+<h2 id="https"><a href="#https" class="headerlink" title="https"></a>https</h2><h3 id="依赖"><a href="#依赖" class="headerlink" title="依赖"></a>依赖</h3><ul>
+<li>实现https访问，必须要安装http_ssl_module模块，可以通过以下命令查看：</li>
+</ul>
+<pre><code class="shell">./nginx -V
+</code></pre>
+<ul>
+<li>如果configure arguments 参数里没有 –with-http_ssl_module，重新安装nginx。</li>
+</ul>
+<h3 id="生成密钥"><a href="#生成密钥" class="headerlink" title="生成密钥"></a>生成密钥</h3><ol>
+<li>创建一个私钥</li>
+</ol>
+<pre><code class="shell">openssl genrsa -des3 -out server.key 2048
+</code></pre>
+<ol>
+<li>生成 CSR Common Name 要输入域名</li>
+</ol>
+<pre><code class="shell">openssl req -new -key server.key -out server.csr
+</code></pre>
+<ol>
+<li>删除私钥中的密码, 有利于自动化部署</li>
+</ol>
+<pre><code class="shell">openssl rsa -in server.key -out server.key
+</code></pre>
+<ol>
+<li>生成自签名证书</li>
+</ol>
+<pre><code class="shell">openssl x509 -req -days 10000 -in server.csr -signkey server.key -out server.crt
+</code></pre>
+<ol>
+<li>生成 PEM 格式的证书</li>
+</ol>
+<pre><code class="shell">openssl x509 -in server.crt -out server.pem -outform PEM
+</code></pre>
+<h3 id="nginx-配置"><a href="#nginx-配置" class="headerlink" title="nginx 配置"></a>nginx 配置</h3><pre><code class="shell">http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    client_max_body_size 100M;
+
+    # 负载均衡 
+    upstream data-gateway {
+        server 192.168.1.1:8090;
+        server 192.168.1.2:8090;
+    }
+
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    gzip  on;
+
+server {
+    # 修改为实际端口
+    listen  8080  ssl;
+    listen  [::]:8180 ssl;
+    server_name  10.73.1.1;
+    keepalive_timeout  70;
+
+    default_type        application/octet-stream;
+
+    # Load modular configuration files from the /etc/nginx/conf.d directory.
+    # See http://nginx.org/en/docs/ngx_core_module.html#include
+    # for more information.
+    include /etc/nginx/conf.d/*.conf;
+
+    # 证书路径需要根据实际情况修改
+    ssl_certificate  /apps/https-pem/server.pem;
+    ssl_certificate_key  /apps/https-pem/server.key;
+    ssl_session_cache  shared:SSL:10m;
+    ssl_session_timeout  10m;
+
+    location / {
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        # 负载均衡配置
+        proxy_pass http://data-gateway;
+    }
+}
+
+
+    # vue 前端
+    server {
+        listen       9201;
+        server_name  localhost;
+
+        location / {
+            root   /apps/web/dist;
+            try_files $uri $uri/ @router;
+            index  index.html index.htm;
+        }
+
+
+        location @router {
+            rewrite ^.*$ /index.html last;
+        }
+
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+
+    }
+
+    include vhosts/*.conf;
+
+}
+
+</code></pre>
+
         
     
 
     
+</div>
 
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
 
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 19 + 1);
+                
 
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用 DISQUS -->
+<div id="disqus-comment">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_config = function () {
+        this.page.url = 'https://minifullc.github.io/2022/12/07/Nginx/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'https://minifullc.github.io/2022/12/07/Nginx/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+</script>
+<script type="text/ls-javascript" id="disqus-thread-script">
+    queue.offer(function() {
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document;
+                var s = d.createElement('script');
+                s.src = '//Musuc.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        });
 </script>
 
-    
 </div>
+<style>
+    #disqus-comment{
+        background-color: #eee;
+        padding: 2pc;
+    }
+</style>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+        <a href="/2022/12/09/ElasticSearch/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2022/12/06/MySQL/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -584,6 +900,14 @@ It will not impact the appearance and can give developers a lot of support :)
                     
 
                     
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+
+                    
 
                     <!--Footer-->
 <footer class="mdl-mini-footer" id="bottom">
@@ -733,6 +1057,10 @@ It will not impact the appearance and can give developers a lot of support :)
 <!-- Import prettify js  -->
 
     
+        
+            <script>lsloader.load("prettify_js","https://cdn.jsdelivr.net/gh/viosey/hexo-theme-material@latest/source/js/prettify.min.js", true)</script>
+        
+    
 
 
 
@@ -745,6 +1073,11 @@ It will not impact the appearance and can give developers a lot of support :)
     });
 
     
+        
+            $(function() {
+                $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+                prettyPrint();
+                })
         
     
     
