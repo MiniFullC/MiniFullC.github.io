@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://minifullc.github.io/2022/12/06/MySQL/</loc>
+    
+    <lastmod>2022-12-14T00:21:02.989Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://minifullc.github.io/2022/12/07/Nginx/</loc>
     
     <lastmod>2022-12-13T00:47:08.933Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://minifullc.github.io/2022/12/09/ElasticSearch/</loc>
     
     <lastmod>2022-12-08T06:17:55.700Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://minifullc.github.io/2022/12/06/MySQL/</loc>
-    
-    <lastmod>2022-12-06T09:11:17.620Z</lastmod>
     
   </url>
   

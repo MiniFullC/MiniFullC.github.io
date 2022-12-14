@@ -246,7 +246,7 @@
 
     
         <meta property="article:published_time" content="Tue Dec 06 2022 18:00:00 GMT+0800">
-        <meta property="article:modified_time" content="Tue Dec 06 2022 17:11:17 GMT+0800">
+        <meta property="article:modified_time" content="Wed Dec 14 2022 08:21:02 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -269,7 +269,7 @@
     "mainEntityOfPage": "https://minifullc.github.io/2022/12/06/MySQL/index.html",
     "headline": "MySQL",
     "datePublished": "Tue Dec 06 2022 18:00:00 GMT+0800",
-    "dateModified": "Tue Dec 06 2022 17:11:17 GMT+0800",
+    "dateModified": "Wed Dec 14 2022 08:21:02 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "沐成尘",
@@ -799,7 +799,7 @@ Executed_Gtid_Set: 37f084e8-9161-11eb-abf6-000c29f882cb:12-13,
 <li>在从<code>my.cnf</code>配置中新增：</li>
 </ul>
 <pre><code class="ini">[mysqld]
-## 设置server_id,注意要唯一
+## 设置server_id, 注意不能和主重复
 server-id=2
 ## 开启二进制日志功能，以备Slave作为其它Slave的Master时使用
 log-bin=mysql-slave-bin
